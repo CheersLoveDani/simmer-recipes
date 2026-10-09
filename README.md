@@ -15,6 +15,7 @@ takes to put it on everyone's device.
 | `data/ingredients/<aisle>.yaml` | Every known ingredient, the shop aisle it lives in, and other names for it. |
 | `images/<id>.webp` | Optional cover photo for a recipe. |
 | `images/credits.yaml` | Author, licence and source of every photo. |
+| `themes/<id>/` | Optional shared looks for groups of recipes: colours and artwork. |
 | `schema/recipe.schema.json` | The recipe format. |
 | `scripts/` | Validation and feed build. |
 

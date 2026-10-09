@@ -104,6 +104,52 @@ from a recipe site, shop or search result without one of those licences. The
 build fails if a photo has no credit, and the app shows the credit under the
 recipe.
 
+### Themes
+
+A theme gives a group of recipes a shared look, such as every recipe from
+one cookbook. It recolours the recipe page and cook mode, shows faint
+artwork in the corner behind the text, and adds a badge to the recipe's
+cards. Recipes can also be found by searching for the theme's name.
+
+A theme is a folder under `themes/`:
+
+```
+themes/arcade-nights/theme.yaml
+themes/arcade-nights/logo.svg
+themes/arcade-nights/scout.webp
+```
+
+```yaml
+# themes/arcade-nights/theme.yaml
+name: Arcade Nights
+accent: "#c96a00"        # buttons, step numbers, links
+accentDark: "#f99e1a"    # optional, used in dark mode
+art: logo.svg            # optional background artwork
+credit: Artwork by Sam Example, CC BY 4.0
+styles:                  # optional variations, e.g. one per character
+  scout:
+    label: Scout
+    accent: "#1e88f7"
+    art: scout.webp
+```
+
+A recipe opts in with:
+
+```yaml
+theme:
+  id: arcade-nights
+  style: scout   # optional
+```
+
+A style inherits anything it leaves out from its theme. Artwork is a
+`.webp`, `.png` or `.svg`; a transparent background works best, since it is
+shown faintly behind text. Pick an accent dark enough to read on white, and
+set `accentDark` to a lighter one for dark mode.
+
+Only add artwork you made or are allowed to share. Logos and character art
+from games, films and published books belong to their owners and cannot be
+added here, even for a cookbook you own.
+
 ### Style
 
 - British English.

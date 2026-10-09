@@ -4,6 +4,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import Ajv from 'ajv';
 import YAML from 'yaml';
+import { checkRecipeThemes, loadThemes, publishThemes } from './themes.mjs';
 
 export const SCHEMA_VERSION = 1;
 
@@ -148,6 +149,7 @@ export function compileRecipe(id, source, validate, taxonomy) {
     ...(source.storage ? { storage: source.storage } : {}),
     ...(source.nutrition ? { nutrition: source.nutrition } : {}),
     cover: source.cover,
+    ...(source.theme ? { theme: source.theme } : {}),
     author: source.author ?? 'Simmer',
     created: source.created,
     ...(source.updated ? { updated: source.updated } : {}),
@@ -176,7 +178,9 @@ export async function loadRecipes(root) {
     for (const message of result.errors) errors.push({ file, message });
     if (result.recipe) recipes.push(result.recipe);
   }
-  return { recipes, errors, taxonomy };
+  const { themes, errors: themeErrors } = await loadThemes(root);
+  errors.push(...themeErrors, ...checkRecipeThemes(recipes, themes));
+  return { recipes, errors, taxonomy, themes };
 }
 
 /**
@@ -184,7 +188,7 @@ export async function loadRecipes(root) {
  * Throws if any recipe is invalid.
  */
 export async function buildFeed(root, outDir, { now = new Date() } = {}) {
-  const { recipes, errors } = await loadRecipes(root);
+  const { recipes, errors, themes: themeSources } = await loadRecipes(root);
   if (errors.length) {
     const lines = errors.map((e) => `  ${e.file}: ${e.message}`).join('\n');
     throw new Error(`Feed not built, ${errors.length} problem(s):\n${lines}`);
@@ -239,6 +243,7 @@ export async function buildFeed(root, outDir, { now = new Date() } = {}) {
     compiled.push(recipe);
   }
 
+  const themes = await publishThemes(themeSources, feedDir);
   const bundleJson = JSON.stringify({ schemaVersion: SCHEMA_VERSION, recipes: compiled });
   const bundleHash = sha(bundleJson);
   const bundlePath = `recipes.${bundleHash}.json`;
@@ -246,11 +251,12 @@ export async function buildFeed(root, outDir, { now = new Date() } = {}) {
 
   const manifest = {
     schemaVersion: SCHEMA_VERSION,
-    revision: sha(canonicalJson({ recipes: entries, images }), 16),
+    revision: sha(canonicalJson({ recipes: entries, images, themes }), 16),
     generatedAt: now.toISOString(),
     bundle: { path: bundlePath, hash: bundleHash, bytes: Buffer.byteLength(bundleJson) },
     recipes: entries,
     images,
+    themes,
   };
   await writeFile(path.join(feedDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
   return manifest;

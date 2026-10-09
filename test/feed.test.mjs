@@ -206,3 +206,57 @@ test('every recipe in this repository is valid', async () => {
   const { errors } = await loadRecipes(repoRoot);
   assert.deepEqual(errors, []);
 });
+
+async function writeTheme(id, theme, art = {}) {
+  const dir = path.join(root, 'themes', id);
+  await mkdir(dir, { recursive: true });
+  await writeFile(path.join(dir, 'theme.yaml'), JSON.stringify(theme));
+  for (const [name, content] of Object.entries(art)) await writeFile(path.join(dir, name), content);
+}
+
+test('a theme and its styles reach the feed with their art', async () => {
+  await writeTheme(
+    'game-night',
+    { name: 'Game Night', accent: '#F79A1E', art: 'logo.svg', styles: { scout: { label: 'Scout', art: 'scout.webp', accentDark: '#ffcc66' }, plain: { label: 'Plain' } } },
+    { 'logo.svg': '<svg/>', 'scout.webp': 'scout art' },
+  );
+  await writeRecipe('garlic-toast', { ...base(), theme: { id: 'game-night', style: 'scout' } });
+  await writeRecipe('plain-toast', base());
+  const out = path.join(root, 'dist');
+  const manifest = await buildFeed(root, out);
+
+  assert.equal(manifest.themes.length, 1);
+  const theme = manifest.themes[0];
+  assert.equal(theme.id, 'game-night');
+  assert.equal(theme.accent, '#f79a1e');
+  assert.match(theme.art, /^img\/t\/game-night\/logo\.[0-9a-f]{12}\.svg$/);
+  assert.match(theme.styles.scout.art, /^img\/t\/game-night\/scout\.[0-9a-f]{12}\.webp$/);
+  assert.deepEqual(theme.styles.plain, { label: 'Plain' });
+  assert.equal(await readFile(path.join(out, 'v1', theme.styles.scout.art), 'utf8'), 'scout art');
+  assert.equal(theme.dir, undefined, 'local paths are not published');
+
+  const themed = JSON.parse(await readFile(path.join(out, 'v1', manifest.recipes.find((r) => r.id === 'garlic-toast').path), 'utf8'));
+  assert.deepEqual(themed.theme, { id: 'game-night', style: 'scout' });
+  const plain = JSON.parse(await readFile(path.join(out, 'v1', manifest.recipes.find((r) => r.id === 'plain-toast').path), 'utf8'));
+  assert.equal(plain.theme, undefined);
+
+  // Restyling a theme changes the revision so apps pick it up.
+  await writeTheme('game-night', { name: 'Game Night', accent: '#112233' });
+  await writeRecipe('garlic-toast', { ...base(), theme: { id: 'game-night' } });
+  assert.notEqual((await buildFeed(root, out)).revision, manifest.revision);
+});
+
+test('theme mistakes are reported', async () => {
+  await writeRecipe('garlic-toast', { ...base(), theme: { id: 'nowhere' } });
+  await assert.rejects(buildFeed(root, path.join(root, 'dist')), /theme "nowhere" does not exist/);
+
+  await writeTheme('game-night', { name: 'Game Night', accent: 'orange', art: 'missing.png', styles: { scout: {} }, colour: 'x' });
+  await writeRecipe('garlic-toast', { ...base(), theme: { id: 'game-night', style: 'medic' } });
+  const { errors } = await loadRecipes(root);
+  const messages = errors.map((e) => e.message).join('\n');
+  assert.match(messages, /"accent" must be a colour/);
+  assert.match(messages, /art "missing.png" does not exist/);
+  assert.match(messages, /style "scout" needs a "label"/);
+  assert.match(messages, /unknown field "colour"/);
+  assert.match(messages, /has no style "medic"/);
+});
