@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "revision": "cceb54a496773cb0",
-  "generatedAt": "2026-10-09T21:11:50.741Z",
+  "revision": "00bc76bb01b2e3a4",
+  "generatedAt": "2026-10-09T21:14:56.549Z",
   "bundle": {
-    "path": "recipes.1351452e5dd6.json",
-    "hash": "1351452e5dd6",
-    "bytes": 68440
+    "path": "recipes.b3d873a3db12.json",
+    "hash": "b3d873a3db12",
+    "bytes": 70240
   },
   "recipes": [
     {
@@ -20,8 +20,8 @@
     },
     {
       "id": "brigadeiros",
-      "hash": "fbdc6bc07a9a",
-      "path": "r/brigadeiros.fbdc6bc07a9a.json"
+      "hash": "003c20585a2c",
+      "path": "r/brigadeiros.003c20585a2c.json"
     },
     {
       "id": "buttermilk-scones",
@@ -40,13 +40,13 @@
     },
     {
       "id": "crispy-roast-potatoes",
-      "hash": "5a2a59da46c5",
-      "path": "r/crispy-roast-potatoes.5a2a59da46c5.json"
+      "hash": "e0aa5e6806dc",
+      "path": "r/crispy-roast-potatoes.e0aa5e6806dc.json"
     },
     {
       "id": "currywurst-with-fried-potatoes",
-      "hash": "d80060599f83",
-      "path": "r/currywurst-with-fried-potatoes.d80060599f83.json"
+      "hash": "0e2dd79887dc",
+      "path": "r/currywurst-with-fried-potatoes.0e2dd79887dc.json"
     },
     {
       "id": "dark-chocolate-mousse",
@@ -55,8 +55,8 @@
     },
     {
       "id": "fudgy-brownies",
-      "hash": "0388d036de59",
-      "path": "r/fudgy-brownies.0388d036de59.json"
+      "hash": "a34de6e96190",
+      "path": "r/fudgy-brownies.a34de6e96190.json"
     },
     {
       "id": "garlic-teriyaki-butter-chicken-noodles",
@@ -80,18 +80,18 @@
     },
     {
       "id": "jollof-rice",
-      "hash": "fd0575776e64",
-      "path": "r/jollof-rice.fd0575776e64.json"
+      "hash": "1d5c4c31d8d9",
+      "path": "r/jollof-rice.1d5c4c31d8d9.json"
     },
     {
       "id": "kimchi-fried-rice-with-a-fried-egg",
-      "hash": "19ca6e07eec7",
-      "path": "r/kimchi-fried-rice-with-a-fried-egg.19ca6e07eec7.json"
+      "hash": "75a38509cfd9",
+      "path": "r/kimchi-fried-rice-with-a-fried-egg.75a38509cfd9.json"
     },
     {
       "id": "potato-rosti",
-      "hash": "d01f7081e8d6",
-      "path": "r/potato-rosti.d01f7081e8d6.json"
+      "hash": "f611677bf33f",
+      "path": "r/potato-rosti.f611677bf33f.json"
     },
     {
       "id": "thai-green-chicken-curry",
@@ -111,6 +111,11 @@
       "path": "img/basil-pesto.4264c46f3b66.webp"
     },
     {
+      "id": "brigadeiros",
+      "hash": "e5fdd177db1b",
+      "path": "img/brigadeiros.e5fdd177db1b.webp"
+    },
+    {
       "id": "buttermilk-scones",
       "hash": "904411d31864",
       "path": "img/buttermilk-scones.904411d31864.webp"
@@ -126,9 +131,24 @@
       "path": "img/chocolate-chip-cookies.8388bce18c30.webp"
     },
     {
+      "id": "crispy-roast-potatoes",
+      "hash": "e57d7b7f4e07",
+      "path": "img/crispy-roast-potatoes.e57d7b7f4e07.webp"
+    },
+    {
+      "id": "currywurst-with-fried-potatoes",
+      "hash": "8f89e572a421",
+      "path": "img/currywurst-with-fried-potatoes.8f89e572a421.webp"
+    },
+    {
       "id": "dark-chocolate-mousse",
       "hash": "51947d187145",
       "path": "img/dark-chocolate-mousse.51947d187145.webp"
+    },
+    {
+      "id": "fudgy-brownies",
+      "hash": "da8a27a8d494",
+      "path": "img/fudgy-brownies.da8a27a8d494.webp"
     },
     {
       "id": "garlic-teriyaki-butter-chicken-noodles",
@@ -149,6 +169,21 @@
       "id": "hummus",
       "hash": "ec6ba3a85cc8",
       "path": "img/hummus.ec6ba3a85cc8.webp"
+    },
+    {
+      "id": "jollof-rice",
+      "hash": "c5a5d117be63",
+      "path": "img/jollof-rice.c5a5d117be63.webp"
+    },
+    {
+      "id": "kimchi-fried-rice-with-a-fried-egg",
+      "hash": "55314d729c2a",
+      "path": "img/kimchi-fried-rice-with-a-fried-egg.55314d729c2a.webp"
+    },
+    {
+      "id": "potato-rosti",
+      "hash": "ed2e658aea80",
+      "path": "img/potato-rosti.ed2e658aea80.webp"
     },
     {
       "id": "thai-green-chicken-curry",
