@@ -36,6 +36,7 @@ styles:
     accentDark: "#ed93c7"
   doomfist:
     label: "Doomfist"
+    art: impact.svg
     accent: "#815049"
     accentDark: "#b29490"
   echo:
