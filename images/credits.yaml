@@ -11,6 +11,12 @@ basil-pesto:
   license: CC BY-SA 3.0
   licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:BasilPesto.JPG
+brigadeiros:
+  title: Brigadeiro
+  author: User Mayra (Maych) on Flickr
+  license: CC BY-SA 2.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Brigadeiro.jpg
 buttermilk-scones:
   title: Scones Jam Cream
   author: Alpha from Melbourne, Australia
@@ -29,12 +35,30 @@ chocolate-chip-cookies:
   license: CC0
   licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Chocolate_chip_cookies_on_cutting_board.jpg
+crispy-roast-potatoes:
+  title: Lemony roasted potatoes (29307744858)
+  author: Joey Doll
+  license: CC BY 2.0
+  licenseUrl: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Lemony_roasted_potatoes_(29307744858).jpg
+currywurst-with-fried-potatoes:
+  title: Currywurst-1
+  author: Rainer Zenz
+  license: CC BY-SA 3.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Currywurst-1.jpg
 dark-chocolate-mousse:
   title: Mousse au Chocolat 2010 004
   author: Bin im Garten
   license: CC BY-SA 3.0
   licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Mousse_au_Chocolat_2010_004.JPG
+fudgy-brownies:
+  title: Chocolatebrownie
+  author: Ɱ
+  license: CC BY-SA 3.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Chocolatebrownie.JPG
 garlic-teriyaki-butter-chicken-noodles:
   title: Chicken Chow Mein (2411270286)
   author: Mack Male from Edmonton, AB, Canada
@@ -59,6 +83,24 @@ hummus:
   license: CC BY-SA 2.0
   licenseUrl: https://creativecommons.org/licenses/by-sa/2.0
   source: https://commons.wikimedia.org/wiki/File:Hummus_from_The_Nile.jpg
+jollof-rice:
+  title: Jollof rice and Dodo
+  author: Skarfmacaronne
+  license: CC BY-SA 4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Jollof_rice_and_Dodo.jpg
+kimchi-fried-rice-with-a-fried-egg:
+  title: Kimchi fried rice
+  author: Sharon Ang
+  license: CC0
+  licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Kimchi_fried_rice.jpg
+potato-rosti:
+  title: Zürcher Geschnetzeltes with Rösti
+  author: Armineaghayan
+  license: CC BY-SA 4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Z%C3%BCrcher_Geschnetzeltes_with_R%C3%B6sti.jpg
 thai-green-chicken-curry:
   title: Thai green chicken curry and roti
   author: Takeaway
