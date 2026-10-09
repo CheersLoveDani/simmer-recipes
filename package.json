@@ -1,0 +1,20 @@
+{
+  "name": "simmer-recipes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recipe source and feed build for the Simmer cookbook app",
+  "type": "module",
+  "license": "(CC-BY-SA-4.0 AND AGPL-3.0-or-later)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "yaml": "^2.6.0"
+  }
+}

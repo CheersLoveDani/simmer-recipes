@@ -1,0 +1,43 @@
+title: Slow-Cooked Tomato Sauce
+description: Tinned plum tomatoes simmered gently for over an hour with soft onion, garlic and olive oil until thick, sweet and deep red. A patient, all-purpose sauce for pasta, pizza or the freezer.
+course: sauce
+cuisine: italian
+tags: [batch-cooking, freezer-friendly, pasta, make-ahead, storecupboard]
+diet: [vegetarian, vegan, gluten-free, dairy-free, nut-free]
+difficulty: easy
+serves: 4
+yield: about 700 ml
+time: { prep: 10, cook: 95 }
+ingredients:
+  - items:
+      - { qty: 4, unit: tbsp, item: olive oil }
+      - { qty: 1, unit: null, item: onion, prep: finely chopped }
+      - { qty: 1, unit: tsp, item: fine salt, key: salt, note: plus extra to taste }
+      - { qty: 4, unit: clove, item: garlic, prep: thinly sliced }
+      - { qty: 1, unit: tbsp, item: tomato purée, key: tomato puree }
+      - { qty: 2, unit: can, item: tinned plum tomatoes, key: chopped tomatoes, note: 400 g tins of whole tomatoes }
+      - { qty: 200, unit: ml, item: water, note: use it to rinse out the tins }
+      - { qty: 1, unit: null, item: bay leaf, fixed: true }
+      - { qty: 1, unit: pinch, item: caster sugar, note: only if the sauce tastes sharp, optional: true }
+      - { qty: 1, unit: handful, item: basil leaves, key: basil, optional: true }
+steps:
+  - text: Warm the olive oil in a wide, heavy-based saucepan over a medium-low heat. Add the onion and half the salt and cook gently, stirring now and then, until completely soft, translucent and sweet but not browned.
+    timer: { minutes: 12, label: Soften onion }
+    tip: Do not rush this. Onion that is still firm when the tomatoes go in stays firm, because the acid stops it softening.
+  - text: Add the garlic and cook for a minute until fragrant. Stir in the tomato purée and cook for 2 minutes more, stirring, until it darkens a shade and starts to catch on the base of the pan.
+  - text: Add the tomatoes and crush them against the side of the pan with a wooden spoon. Swill out the tins with the water and add that too, along with the bay leaf and the remaining salt. Bring to a simmer.
+  - text: Turn the heat down as low as it will go, so the surface only blips occasionally, and set a lid on the pan slightly ajar. Cook, stirring every 15 minutes or so and scraping the base, until the sauce is thick and glossy and the oil has started to separate around the edges.
+    timer: { minutes: 75, label: Simmer sauce }
+    tip: If it thickens too much or begins to stick before the time is up, add a splash of water and lower the heat further.
+  - text: Fish out the bay leaf. Taste and adjust with more salt, and a pinch of sugar only if it is still sharp. Tear in the basil. Leave the sauce chunky, or blend it with a stick blender if you want it smooth.
+equipment: [wide heavy-based saucepan with lid, wooden spoon, stick blender (optional)]
+tips:
+  - Whole tinned plum tomatoes generally taste better and break down more readily than ready-chopped ones, which are often firmer and more watery.
+  - The sauce doubles well in a larger pan and is worth making in bulk; allow an extra 15–20 minutes of simmering.
+substitutions:
+  - { for: tinned plum tomatoes, use: 700 g passata, note: reduce the water to 100 ml and the simmering time to about 45 minutes }
+  - { for: basil, use: 1 tsp dried oregano, note: add it with the tomatoes rather than at the end }
+storage: Cool, then keep in the fridge for up to 5 days or freeze in portions for up to 3 months. Reheat gently with a splash of water.
+nutrition: { kcal: 185, protein: 3, carbs: 12, fat: 14, fibre: 3 }
+cover: { hue: 6, motif: pot }
+created: 2026-10-09

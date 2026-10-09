@@ -1,0 +1,48 @@
+title: Chocolate Chip Cookies
+description: Crisp at the edge, soft and chewy in the middle, with puddles of dark chocolate and a little flaky salt on top. Melted butter means no creaming and no mixer.
+course: baking
+cuisine: american
+tags: [cookies, chewy, no-mixer, freezer-friendly, crowd-pleaser]
+diet: [vegetarian, nut-free]
+difficulty: easy
+serves: 16
+yield: 16 cookies
+time: { prep: 15, cook: 12, rest: 40 }
+ingredients:
+  - items:
+      - { qty: 125, unit: g, item: unsalted butter }
+      - { qty: 150, unit: g, item: light brown sugar }
+      - { qty: 75, unit: g, item: caster sugar }
+      - { qty: 1, unit: null, item: large egg }
+      - { qty: 1, unit: null, item: egg yolk }
+      - { qty: 2, unit: tsp, item: vanilla extract }
+      - { qty: 225, unit: g, item: plain flour }
+      - { qty: 0.5, unit: tsp, item: bicarbonate of soda }
+      - { qty: 0.5, unit: tsp, item: fine salt }
+      - { qty: 200, unit: g, item: dark chocolate, prep: chopped into rough chunks }
+      - { qty: null, unit: null, item: flaky sea salt, note: a pinch for each cookie, optional: true }
+steps:
+  - text: Melt the butter in a small pan over a low heat, then pour it into a large bowl and leave it for 5 minutes so it is warm rather than hot.
+    timer: { minutes: 5, label: Cool butter }
+  - text: Add both sugars to the butter and whisk for a full minute until thick and glossy. Whisk in the egg, egg yolk and vanilla until the mixture is smooth and looks like loose caramel.
+  - text: Tip in the flour, bicarbonate of soda and fine salt and stir with a spatula until only a few floury streaks remain. Add the chocolate and fold until evenly distributed and no dry flour is left.
+  - text: Cover the bowl and chill the dough for 30 minutes, until firm enough to scoop. Meanwhile, heat the oven to 180°C (160°C fan) and line two large baking trays with baking paper.
+    timer: { minutes: 30, label: Chill dough }
+    tip: Chilling stops the cookies spreading into thin discs. A longer rest of up to 48 hours in the fridge gives a deeper, more toffee-like flavour.
+  - text: Roll the dough into 16 balls of about 50g each. Space eight on each tray, leaving at least 5cm between them, and sprinkle each with a little flaky salt if you like.
+  - text: Bake for 11–13 minutes, until the edges are golden and set but the centres still look pale and slightly underdone. If your oven heats unevenly, swap the trays halfway through.
+    timer: { minutes: 12, label: Bake cookies }
+    tip: Take them out sooner than seems right. They carry on cooking on the hot tray, and that is where the chewy middle comes from.
+  - text: Leave the cookies on their trays for 10 minutes to firm up, then move them to a wire rack to cool completely.
+    timer: { minutes: 10, label: Set on tray }
+equipment: [small saucepan, large mixing bowl, whisk, 2 large baking trays, baking paper, wire rack]
+tips:
+  - Chop a bar of chocolate rather than using chips — the mix of shards and chunks melts into layers through the dough.
+  - Shaped dough balls freeze well. Bake them from frozen, adding 2 minutes to the time.
+substitutions:
+  - { for: dark chocolate, use: milk chocolate or a mixture of the two }
+  - { for: light brown sugar, use: dark brown sugar, note: for a stronger treacle flavour and a softer cookie }
+storage: Keep in an airtight tin for up to 5 days. Freeze unbaked dough balls for up to 3 months.
+nutrition: { kcal: 240, protein: 3, carbs: 29, fat: 12, fibre: 1.5 }
+cover: { hue: 28, motif: grain }
+created: 2026-10-09

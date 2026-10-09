@@ -1,0 +1,54 @@
+title: Crunchy Peanut Noodle Salad
+description: Cold rice noodles and a heap of shredded raw vegetables tossed in a lime, ginger and peanut dressing, finished with herbs and roasted peanuts. Travels well, so it makes a fine packed lunch.
+course: salad
+cuisine: southeast-asian
+tags: [lunchbox, noodles, peanut, make-ahead, summer]
+diet: [vegan, vegetarian, dairy-free]
+difficulty: easy
+serves: 4
+time: { prep: 25, cook: 5 }
+ingredients:
+  - section: Peanut dressing
+    items:
+      - { qty: 80, unit: g, item: smooth peanut butter, key: peanut butter }
+      - { qty: 3, unit: tbsp, item: soy sauce }
+      - { qty: 2, unit: null, item: limes, note: "1 juiced, 1 cut into wedges to serve" }
+      - { qty: 1, unit: tbsp, item: rice vinegar }
+      - { qty: 1, unit: tbsp, item: maple syrup }
+      - { qty: 1, unit: tbsp, item: toasted sesame oil, note: plus 1 tsp for the noodles }
+      - { qty: 15, unit: g, item: fresh ginger, prep: peeled and finely grated }
+      - { qty: 1, unit: clove, item: garlic, prep: finely grated }
+      - { qty: 1, qtyMax: 2, unit: tsp, item: sriracha, note: to taste }
+      - { qty: 3, qtyMax: 4, unit: tbsp, item: warm water }
+  - section: Salad
+    items:
+      - { qty: 200, unit: g, item: vermicelli rice noodles }
+      - { qty: 150, unit: g, item: edamame beans, note: "frozen, podded" }
+      - { qty: 200, unit: g, item: red cabbage, prep: very finely shredded }
+      - { qty: 2, unit: null, item: carrots, prep: peeled and cut into thin matchsticks }
+      - { qty: 1, unit: null, item: red pepper, prep: deseeded and thinly sliced }
+      - { qty: 0.5, unit: null, item: cucumber, prep: deseeded and cut into thin batons }
+      - { qty: 4, unit: null, item: spring onions, prep: thinly sliced on the diagonal }
+      - { qty: 20, unit: g, item: fresh coriander, prep: roughly chopped }
+      - { qty: 10, unit: g, item: fresh mint, prep: leaves torn }
+      - { qty: 60, unit: g, item: roasted peanuts, prep: roughly chopped }
+steps:
+  - text: Whisk the peanut butter, soy sauce, lime juice, rice vinegar, maple syrup, 1 tbsp sesame oil, ginger, garlic and sriracha in a large bowl. Add the warm water a spoonful at a time until the dressing pours like double cream.
+    tip: Peanut butters vary in thickness. Stop adding water as soon as the dressing runs off the whisk in a ribbon.
+  - text: Put the noodles and edamame in a heatproof bowl, cover generously with boiling water and leave until the noodles are tender — usually 3–4 minutes, but check the packet.
+    timer: { minutes: 4, label: Soak noodles }
+  - text: Drain into a colander and rinse under cold running water until completely cool. Shake very dry, then toss with the extra 1 tsp sesame oil and snip through the noodles a few times with scissors so they are easier to mix and eat.
+  - text: Add the cabbage, carrots, pepper, cucumber and most of the spring onions to the bowl of dressing, followed by the noodles and edamame. Toss thoroughly with tongs or clean hands until everything is coated.
+  - text: Fold through most of the coriander and mint. Pile onto a platter or into bowls and finish with the peanuts and the rest of the herbs and spring onions. Serve with lime wedges for squeezing.
+equipment: [large mixing bowl, heatproof bowl, colander, whisk]
+tips:
+  - For a packed lunch, keep the peanuts separate and add them just before eating so they stay crunchy.
+  - The noodles absorb dressing as they sit. If you make it ahead, hold back a few spoonfuls to loosen it before serving.
+substitutions:
+  - { for: soy sauce, use: tamari, note: "makes the dish gluten-free if your noodles are pure rice" }
+  - { for: peanut butter and peanuts, use: tahini and toasted sesame seeds }
+  - { for: rice noodles, use: soba or fine egg noodles, note: "cook according to the packet; egg noodles are not vegan" }
+storage: Keeps for 2 days in an airtight container in the fridge. Loosen with a squeeze of lime before eating.
+nutrition: { kcal: 510, protein: 19, carbs: 62, fat: 21, fibre: 8 }
+cover: { hue: 26, motif: noodles }
+created: 2026-10-09

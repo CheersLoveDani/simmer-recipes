@@ -1,0 +1,54 @@
+title: Roast Aubergine with Tahini and Pomegranate
+description: Wedges of aubergine roasted until soft and caramelised, piled onto a platter with spiced crisp chickpeas, a lemony tahini sauce and bright pomegranate seeds.
+course: main
+cuisine: middle-eastern
+tags: [vegan, roast, sharing-platter, aubergine, tahini]
+diet: [vegan, vegetarian, gluten-free, dairy-free, nut-free]
+difficulty: easy
+serves: 4
+time: { prep: 15, cook: 40 }
+ingredients:
+  - section: Aubergine and chickpeas
+    items:
+      - { qty: 3, unit: null, item: aubergines, prep: each cut lengthways into 6 wedges }
+      - { qty: 5, unit: tbsp, item: olive oil }
+      - { qty: 1, unit: tsp, item: flaky sea salt }
+      - { qty: 1, unit: can, item: chickpeas, prep: "drained, rinsed and patted dry", note: 400g tin }
+      - { qty: 1, unit: tsp, item: ground cumin }
+      - { qty: 1, unit: tsp, item: smoked paprika }
+  - section: Tahini sauce
+    items:
+      - { qty: 80, unit: g, item: tahini }
+      - { qty: 1, unit: null, item: lemon, prep: juiced }
+      - { qty: 1, unit: clove, item: garlic, prep: finely grated, note: small }
+      - { qty: 4, qtyMax: 6, unit: tbsp, item: cold water }
+      - { qty: 1, unit: pinch, item: fine salt }
+  - section: To finish
+    items:
+      - { qty: 1, unit: null, item: pomegranate, prep: seeds removed }
+      - { qty: 1, unit: handful, item: flat-leaf parsley, prep: roughly chopped }
+      - { qty: 1, unit: handful, item: mint leaves, prep: torn }
+      - { qty: 1, unit: tsp, item: sumac }
+steps:
+  - text: Heat the oven to 220°C (200°C fan). Toss the aubergine wedges with 4 tbsp of the oil and the flaky salt on a large baking tray, then arrange them cut-side down in a single layer. Roast on the top shelf.
+    timer: { minutes: 20, label: Roast aubergine }
+    tip: Use two trays if the wedges are touching. Crowded aubergine goes soft and pale instead of browning.
+  - text: Meanwhile, toss the dried chickpeas with the remaining oil, the cumin, smoked paprika and a pinch of salt on a second, smaller tray.
+  - text: Turn the aubergine wedges over and return them to the oven with the tray of chickpeas on the shelf below. Roast until the aubergine is deep golden and completely soft when pierced with a knife, and the chickpeas are crisp.
+    timer: { minutes: 18, label: Finish roasting }
+  - text: While everything roasts, whisk the tahini, lemon juice, garlic and salt together in a bowl. It will seize and thicken at first. Whisk in the cold water a tablespoon at a time until the sauce is smooth, pale and the consistency of pouring cream.
+    tip: Tahini brands differ in thickness, so judge the water by eye rather than by the measurement.
+  - text: Spread half the tahini sauce over a large platter. Arrange the aubergine on top, scatter over the chickpeas and drizzle with the remaining sauce.
+  - text: Finish with the pomegranate seeds, parsley, mint and sumac. Serve warm or at room temperature.
+equipment: [2 baking trays, mixing bowl, whisk, large platter]
+tips:
+  - To get the seeds out of a pomegranate without mess, halve it, hold a half cut-side down over a bowl and hit the back firmly with a wooden spoon.
+  - Warm flatbreads or steamed rice make this a more filling meal, though flatbreads mean it is no longer gluten-free.
+substitutions:
+  - { for: sumac, use: finely grated lemon zest }
+  - { for: mint, use: fresh coriander or dill }
+  - { for: chickpeas, use: cooked puy lentils, note: "do not roast them, just warm through and scatter over" }
+storage: Keeps for 3 days in the fridge, with the sauce and herbs stored separately. Bring back to room temperature before serving; the chickpeas will lose their crispness.
+nutrition: { kcal: 400, protein: 11, carbs: 26, fat: 28, fibre: 12 }
+cover: { hue: 300, motif: berry }
+created: 2026-10-09

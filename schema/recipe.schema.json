@@ -1,0 +1,214 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cheerslovedani.github.io/simmer-recipes/schema/recipe.schema.json",
+  "title": "Simmer recipe source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "description",
+    "course",
+    "cuisine",
+    "difficulty",
+    "serves",
+    "time",
+    "ingredients",
+    "steps",
+    "cover",
+    "created"
+  ],
+  "properties": {
+    "title": { "type": "string", "minLength": 3, "maxLength": 80 },
+    "description": { "type": "string", "minLength": 20, "maxLength": 320 },
+    "course": {
+      "enum": [
+        "starter",
+        "soup",
+        "salad",
+        "main",
+        "side",
+        "dessert",
+        "breakfast",
+        "baking",
+        "drink",
+        "sauce",
+        "snack"
+      ]
+    },
+    "cuisine": { "type": "string", "pattern": "^[a-z][a-z-]*$" },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" }
+    },
+    "diet": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "vegetarian",
+          "vegan",
+          "gluten-free",
+          "dairy-free",
+          "nut-free",
+          "pescatarian"
+        ]
+      }
+    },
+    "difficulty": { "enum": ["easy", "medium", "hard"] },
+    "serves": { "type": "integer", "minimum": 1, "maximum": 48 },
+    "yield": { "type": ["string", "null"], "maxLength": 60 },
+    "time": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prep", "cook"],
+      "properties": {
+        "prep": { "type": "integer", "minimum": 0 },
+        "cook": { "type": "integer", "minimum": 0 },
+        "rest": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "ingredients": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["items"],
+        "properties": {
+          "section": { "type": ["string", "null"], "maxLength": 60 },
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/definitions/ingredient" }
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text"],
+        "properties": {
+          "text": { "type": "string", "minLength": 10, "maxLength": 700 },
+          "timer": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["minutes", "label"],
+            "properties": {
+              "minutes": { "type": "number", "exclusiveMinimum": 0, "maximum": 1440 },
+              "label": { "type": "string", "minLength": 2, "maxLength": 30 }
+            }
+          },
+          "tip": { "type": "string", "minLength": 5, "maxLength": 300 }
+        }
+      }
+    },
+    "equipment": { "type": "array", "items": { "type": "string", "minLength": 2 } },
+    "tips": { "type": "array", "items": { "type": "string", "minLength": 5 } },
+    "substitutions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["for", "use"],
+        "properties": {
+          "for": { "type": "string", "minLength": 2 },
+          "use": { "type": "string", "minLength": 2 },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "storage": { "type": ["string", "null"] },
+    "nutrition": {
+      "description": "Estimated values per serving.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kcal"],
+      "properties": {
+        "kcal": { "type": "number", "minimum": 0 },
+        "protein": { "type": "number", "minimum": 0 },
+        "carbs": { "type": "number", "minimum": 0 },
+        "fat": { "type": "number", "minimum": 0 },
+        "fibre": { "type": "number", "minimum": 0 }
+      }
+    },
+    "cover": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hue", "motif"],
+      "properties": {
+        "hue": { "type": "integer", "minimum": 0, "maximum": 359 },
+        "motif": {
+          "enum": [
+            "bowl",
+            "noodles",
+            "leaf",
+            "loaf",
+            "citrus",
+            "flame",
+            "drop",
+            "grain",
+            "fish",
+            "egg",
+            "berry",
+            "pepper",
+            "cup",
+            "slice",
+            "pot"
+          ]
+        }
+      }
+    },
+    "author": { "type": "string", "minLength": 2 },
+    "created": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "updated": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  },
+  "definitions": {
+    "ingredient": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["qty", "unit", "item"],
+      "properties": {
+        "qty": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+        "qtyMax": { "type": "number", "exclusiveMinimum": 0 },
+        "unit": {
+          "enum": [
+            "g",
+            "kg",
+            "ml",
+            "l",
+            "tsp",
+            "tbsp",
+            "cup",
+            "oz",
+            "lb",
+            "pinch",
+            "clove",
+            "sprig",
+            "slice",
+            "can",
+            "bunch",
+            "stick",
+            "leaf",
+            "handful",
+            "piece",
+            null
+          ]
+        },
+        "item": { "type": "string", "minLength": 2, "maxLength": 60 },
+        "key": { "type": "string", "pattern": "^[a-z][a-z0-9 -]*$" },
+        "prep": { "type": "string", "maxLength": 80 },
+        "note": { "type": "string", "maxLength": 80 },
+        "optional": { "type": "boolean" },
+        "fixed": {
+          "description": "Do not scale this quantity with servings.",
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

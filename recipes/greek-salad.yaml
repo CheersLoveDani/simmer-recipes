@@ -1,0 +1,40 @@
+title: Greek Salad
+description: Chunky ripe tomatoes, cucumber, green pepper and Kalamata olives under a slab of feta, dressed with nothing more than good olive oil, a little vinegar and dried oregano.
+course: salad
+cuisine: greek
+tags: [summer, no-cook, quick, feta, sharing]
+diet: [vegetarian, gluten-free, nut-free]
+difficulty: easy
+serves: 4
+time: { prep: 15, cook: 0, rest: 10 }
+ingredients:
+  - items:
+      - { qty: 0.5, unit: null, item: red onion, prep: thinly sliced into half-moons }
+      - { qty: 1, unit: tbsp, item: red wine vinegar }
+      - { qty: 500, unit: g, item: ripe tomatoes, prep: cut into chunky wedges, note: at room temperature }
+      - { qty: 1, unit: null, item: cucumber, prep: halved lengthways and thickly sliced }
+      - { qty: 1, unit: null, item: green pepper, prep: deseeded and sliced into thin rings }
+      - { qty: 100, unit: g, item: kalamata olives }
+      - { qty: 200, unit: g, item: feta, note: one block }
+      - { qty: 1, unit: tsp, item: dried oregano }
+      - { qty: 4, unit: tbsp, item: extra virgin olive oil }
+      - { qty: null, unit: null, item: flaky sea salt, note: to taste }
+steps:
+  - text: Toss the sliced onion with the vinegar and a pinch of salt in a large serving bowl. Leave to soften and lose its raw bite while you prepare everything else.
+    timer: { minutes: 10, label: Soak onion }
+  - text: Add the tomatoes to the bowl with another good pinch of salt and turn them over a couple of times so they start to give up their juice.
+  - text: Add the cucumber, green pepper and olives. Pour over three-quarters of the oil and toss gently with your hands or a large spoon.
+    tip: Go easy on the salt at this stage — the feta and olives bring plenty.
+  - text: Sit the feta on top in one piece, or broken into two or three large slabs. Rub the oregano between your fingers over the cheese and salad, then pour over the remaining oil.
+  - text: Serve straight away with bread to mop up the juices at the bottom of the bowl.
+equipment: [large serving bowl]
+tips:
+  - This salad is only as good as its tomatoes. Make it in summer and never chill them.
+  - Buy feta in a block in brine; ready-crumbled feta is drier and blander.
+substitutions:
+  - { for: green pepper, use: a handful of capers, note: "common on the islands" }
+  - { for: red wine vinegar, use: lemon juice }
+storage: Best eaten within an hour of making. Leftovers keep for a day in the fridge but the vegetables will soften.
+nutrition: { kcal: 340, protein: 9, carbs: 10, fat: 29, fibre: 3 }
+cover: { hue: 96, motif: leaf }
+created: 2026-10-09

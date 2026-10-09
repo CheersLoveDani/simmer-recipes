@@ -1,0 +1,46 @@
+title: Apple Crumble
+description: Sharp Bramley apples collapsing into their own juices under a craggy, buttery topping of flour, oats and demerara. Proper cold-weather pudding, best with custard.
+course: dessert
+cuisine: british
+tags: [pudding, autumn, comfort-food, classic, family]
+diet: [vegetarian, nut-free]
+difficulty: easy
+serves: 6
+time: { prep: 20, cook: 40, rest: 10 }
+ingredients:
+  - section: Filling
+    items:
+      - { qty: 900, unit: g, item: Bramley apples, key: apple, note: about 4 large }
+      - { qty: 75, unit: g, item: light brown sugar }
+      - { qty: 1, unit: tbsp, item: lemon juice }
+      - { qty: 0.5, unit: tsp, item: ground cinnamon }
+  - section: Crumble topping
+    items:
+      - { qty: 175, unit: g, item: plain flour }
+      - { qty: 110, unit: g, item: unsalted butter, prep: cold and cubed }
+      - { qty: 85, unit: g, item: demerara sugar }
+      - { qty: 50, unit: g, item: rolled oats }
+      - { qty: 1, unit: pinch, item: fine salt }
+steps:
+  - text: Heat the oven to 190°C (170°C fan). Have ready a baking dish of about 1.5 litres, roughly 20 x 28cm.
+  - text: Peel, quarter and core the apples, then cut them into chunks about 2cm across. Toss them in the baking dish with the brown sugar, lemon juice, cinnamon and 2 tablespoons of water, then spread them out in an even layer.
+    tip: Keep the pieces chunky. Bramleys break down a great deal, and thin slices will cook to a purée before the topping is done.
+  - text: Put the flour, salt and butter in a large bowl. Rub the butter in with your fingertips until the mixture looks like coarse, uneven breadcrumbs with some larger buttery lumps. Stir in the demerara sugar and the oats.
+    tip: Squeeze a few handfuls of the mixture together and then break them up again. Those bigger nuggets are what bake into crunchy clusters.
+  - text: Scatter the topping loosely over the apples, right to the edges, without pressing it down.
+  - text: Bake for 35–45 minutes, until the topping is deep golden and the fruit is bubbling up around the sides.
+    timer: { minutes: 40, label: Bake crumble }
+  - text: Leave the crumble to stand for 10 minutes before serving, so the juices thicken and nobody burns their mouth. Serve with custard, cream or vanilla ice cream.
+    timer: { minutes: 10, label: Rest crumble }
+equipment: [1.5 litre baking dish, large mixing bowl, vegetable peeler]
+tips:
+  - The topping can be made ahead and kept in a bag in the freezer. Scatter it over the fruit straight from frozen.
+  - Taste a piece of apple before adding the sugar. Very sharp early-season Bramleys may want an extra tablespoon.
+substitutions:
+  - { for: Bramley apples, use: "eating apples such as Braeburn", note: "reduce the sugar in the filling to 40g, as they are much sweeter and hold their shape" }
+  - { for: rolled oats, use: chopped hazelnuts or flaked almonds, note: the crumble will no longer be nut-free }
+  - { for: ground cinnamon, use: "a handful of blackberries added to the apples" }
+storage: Cover and keep in the fridge for up to 3 days. Reheat at 180°C for 15–20 minutes to crisp the top again. The baked crumble freezes for up to 3 months.
+nutrition: { kcal: 430, protein: 4, carbs: 67, fat: 16, fibre: 4 }
+cover: { hue: 34, motif: bowl }
+created: 2026-10-09

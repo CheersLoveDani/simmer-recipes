@@ -1,0 +1,46 @@
+title: Lemon Drizzle Cake
+description: A buttery loaf scented with lemon zest, soaked while still warm with sharp lemon juice and sugar that sets into a crunchy, frosted crust.
+course: baking
+cuisine: british
+tags: [loaf-cake, citrus, teatime, classic, freezer-friendly]
+diet: [vegetarian, nut-free]
+difficulty: easy
+serves: 10
+yield: 1 loaf (10 slices)
+time: { prep: 20, cook: 50, rest: 60 }
+ingredients:
+  - section: Cake
+    items:
+      - { qty: 175, unit: g, item: unsalted butter, prep: very soft, note: plus extra for the tin }
+      - { qty: 175, unit: g, item: caster sugar }
+      - { qty: 2, unit: null, item: lemons, prep: zest finely grated, note: unwaxed; keep the juice for the drizzle }
+      - { qty: 3, unit: null, item: large eggs, note: at room temperature }
+      - { qty: 175, unit: g, item: self-raising flour }
+      - { qty: 1, unit: pinch, item: fine salt }
+      - { qty: 2, unit: tbsp, item: whole milk }
+  - section: Drizzle
+    items:
+      - { qty: 100, unit: g, item: granulated sugar }
+steps:
+  - text: Heat the oven to 180°C (160°C fan). Butter a 900g (2lb) loaf tin and line it with a strip of baking paper that overhangs the two long sides.
+  - text: Put the butter, caster sugar and lemon zest in a large bowl and beat with an electric whisk for 3–4 minutes, until very pale and fluffy. Scrape down the sides of the bowl once or twice as you go.
+    tip: Rubbing the zest into the sugar with your fingertips first releases the oils and gives a stronger lemon flavour.
+  - text: Beat in the eggs one at a time, adding a spoonful of the flour with each to stop the mixture curdling. Sift in the remaining flour and the salt, then fold together gently with the milk until you have a smooth batter that drops easily off the spoon.
+  - text: Spoon the batter into the tin and level the top. Bake on the middle shelf for 45–50 minutes, until golden, springy to the touch and a skewer pushed into the centre comes out clean.
+    timer: { minutes: 48, label: Bake cake }
+    tip: Do not open the oven for the first 30 minutes or the cake may sink in the middle.
+  - text: While the cake bakes, squeeze the two zested lemons; you want about 5 tablespoons of juice. Just before the cake comes out, stir the juice into the granulated sugar. Do not let it dissolve, as the undissolved sugar is what gives the crunchy top.
+  - text: As soon as the cake is out of the oven, prick it all over with a skewer, going right to the bottom. Spoon the drizzle slowly over the hot cake, letting each spoonful soak in before adding the next.
+  - text: Leave the cake in its tin until completely cool and the top has set into a crisp sugar crust, about 1 hour. Lift out by the paper and slice.
+    timer: { minutes: 60, label: Cool in tin }
+equipment: [900g (2lb) loaf tin, baking paper, electric whisk, large mixing bowl, sieve, skewer]
+tips:
+  - The butter must be properly soft, almost the texture of mayonnaise, or it will not cream to the pale, airy stage the cake depends on.
+  - Pour the drizzle while the cake is hot. A cold cake will not absorb the juice and the syrup will run off.
+substitutions:
+  - { for: self-raising flour, use: plain flour plus 2 tsp baking powder }
+  - { for: lemons, use: 3 limes or 1 large orange, note: an orange drizzle will be sweeter and less sharp }
+storage: Keeps in an airtight tin for 4 days. Freeze, well wrapped, for up to 3 months.
+nutrition: { kcal: 320, protein: 4, carbs: 41, fat: 16, fibre: 1 }
+cover: { hue: 54, motif: citrus }
+created: 2026-10-09

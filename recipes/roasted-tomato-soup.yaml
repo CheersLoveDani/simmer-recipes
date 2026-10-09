@@ -1,0 +1,45 @@
+title: Roasted Tomato Soup
+description: Tomatoes, red onion and whole garlic cloves roasted until soft and charred at the edges, then blended into a soup that tastes far richer than its short ingredient list suggests.
+course: soup
+cuisine: british
+tags: [comfort, batch-cooking, freezer-friendly, summer, tomato]
+diet: [vegan, vegetarian, gluten-free, dairy-free, nut-free]
+difficulty: easy
+serves: 4
+time: { prep: 10, cook: 55 }
+ingredients:
+  - items:
+      - { qty: 1.2, unit: kg, item: ripe tomatoes, prep: halved }
+      - { qty: 2, unit: null, item: red onions, prep: peeled and cut into wedges }
+      - { qty: 6, unit: clove, item: garlic, prep: left unpeeled }
+      - { qty: 4, unit: sprig, item: thyme }
+      - { qty: 3, unit: tbsp, item: olive oil, note: plus extra to serve }
+      - { qty: 1, unit: tbsp, item: tomato puree }
+      - { qty: 600, unit: ml, item: vegetable stock, note: hot }
+      - { qty: 1, unit: handful, item: basil leaves, note: plus a few small leaves to serve }
+      - { qty: 1, unit: tsp, item: balsamic vinegar }
+      - { qty: 1, unit: tsp, item: caster sugar, optional: true, note: only if the tomatoes are sharp }
+      - { qty: null, unit: null, item: salt, note: to taste }
+      - { qty: null, unit: null, item: black pepper, note: to taste }
+steps:
+  - text: Heat the oven to 200°C (180°C fan). Spread the tomatoes cut-side up in a large roasting tin with the onion wedges, garlic cloves and thyme. Drizzle with the oil, season generously with salt and pepper and toss the onions to coat.
+    tip: Use a tin big enough for a single layer. Crowded tomatoes steam instead of roasting.
+  - text: Roast until the tomatoes have slumped and the onions are soft and catching at the edges.
+    timer: { minutes: 45, label: Roast vegetables }
+  - text: Squeeze the soft garlic out of its skins into a large saucepan and discard the skins and thyme stalks. Scrape in the tomatoes, onions and every bit of juice from the tin.
+  - text: Stir in the tomato purée and hot stock, bring to a simmer and cook gently to bring everything together.
+    timer: { minutes: 8, label: Simmer soup }
+  - text: Take off the heat, add the basil and blend until completely smooth. Stir in the balsamic vinegar, taste, and adjust with salt, pepper and the sugar if it needs it.
+    tip: For a silky finish, push the soup through a sieve to catch the skins and seeds.
+  - text: Ladle into warm bowls and finish with a thread of olive oil, a few basil leaves and black pepper.
+equipment: [large roasting tin, large saucepan, stick blender]
+tips:
+  - This is forgiving of mediocre tomatoes — roasting concentrates what flavour they have — but in winter swap a third of them for a tin of good plum tomatoes added with the stock.
+  - Stock cubes vary, so check the label if you are cooking gluten-free.
+substitutions:
+  - { for: basil, use: a spoonful of pesto stirred in at the end, note: "no longer vegan or nut-free" }
+  - { for: balsamic vinegar, use: sherry vinegar }
+storage: Keeps for 4 days in the fridge and freezes well for up to 3 months. Thin with a splash of water when reheating.
+nutrition: { kcal: 170, protein: 4, carbs: 18, fat: 11, fibre: 5 }
+cover: { hue: 8, motif: bowl }
+created: 2026-10-09

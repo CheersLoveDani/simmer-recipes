@@ -1,0 +1,40 @@
+title: Tabbouleh
+description: A herb salad, not a grain one — heaps of finely cut parsley and mint with tomato, spring onion and just enough bulgur to soak up the lemon and olive oil.
+course: salad
+cuisine: lebanese
+tags: [herbs, summer, no-cook, mezze, fresh]
+diet: [vegan, vegetarian, dairy-free, nut-free]
+difficulty: easy
+serves: 4
+time: { prep: 25, cook: 0, rest: 20 }
+ingredients:
+  - items:
+      - { qty: 50, unit: g, item: fine bulgur wheat, key: bulgur wheat }
+      - { qty: 300, unit: g, item: ripe tomatoes, prep: finely diced, note: juices kept }
+      - { qty: 4, unit: tbsp, item: lemon juice, note: from about 1½ lemons }
+      - { qty: 100, unit: g, item: flat-leaf parsley, note: 2 large bunches }
+      - { qty: 20, unit: g, item: fresh mint, prep: leaves picked }
+      - { qty: 4, unit: null, item: spring onions, prep: very thinly sliced }
+      - { qty: 4, unit: tbsp, item: extra virgin olive oil }
+      - { qty: 0.25, unit: tsp, item: ground allspice, optional: true }
+      - { qty: 0.75, unit: tsp, item: fine salt, note: or to taste }
+      - { qty: null, unit: null, item: black pepper, note: to taste }
+steps:
+  - text: Put the bulgur in a large bowl with the diced tomatoes, all their juices and the lemon juice. Stir and leave so the grains swell and soften in the liquid.
+    timer: { minutes: 20, label: Soak bulgur }
+    tip: This only works with fine bulgur. If yours is coarse, cover it with boiling water for 15 minutes, drain well and squeeze dry before mixing with the tomatoes.
+  - text: Meanwhile, wash the parsley and mint and dry them completely in a salad spinner or between clean tea towels. Trim off the thick lower parsley stalks, keeping the tender upper ones.
+    tip: Wet herbs turn to mush under the knife and make a watery salad, so take your time here.
+  - text: Gather the parsley into a tight bundle and slice it as finely as you can with a sharp knife, working through it once rather than chopping back and forth. Stack and shred the mint leaves in the same way.
+  - text: Add the herbs and spring onions to the bulgur and tomatoes. Pour over the olive oil, add the allspice if using, the salt and a few grinds of pepper, and toss lightly with a fork.
+  - text: Taste and adjust — it should be bright and sharp, so add more lemon or salt if it seems flat. Serve within the hour, with crisp lettuce leaves for scooping if you like.
+equipment: [large bowl, sharp knife, salad spinner]
+tips:
+  - Resist the food processor. It bruises the herbs and turns them dark and wet; a sharp knife keeps them fluffy and green.
+substitutions:
+  - { for: bulgur wheat, use: cooked and cooled quinoa, note: "makes it gluten-free; use about 100 g cooked" }
+  - { for: spring onions, use: half a small red onion, note: "very finely chopped" }
+storage: Best on the day it is made. Leftovers keep for a day in the fridge; refresh with a squeeze of lemon.
+nutrition: { kcal: 190, protein: 4, carbs: 16, fat: 13, fibre: 5 }
+cover: { hue: 118, motif: grain }
+created: 2026-10-09

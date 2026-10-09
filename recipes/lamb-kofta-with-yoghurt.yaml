@@ -1,0 +1,64 @@
+title: Lamb Kofta with Yoghurt
+description: Juicy spiced lamb kofta flecked with mint and parsley, charred on a hot griddle and served in warm pitta with garlicky lemon yoghurt, tomato and sumac onions.
+course: main
+cuisine: middle-eastern
+tags: [lamb, grill, barbecue, family, weeknight]
+diet: [nut-free]
+difficulty: easy
+serves: 4
+yield: 12 kofta
+time: { prep: 20, cook: 12, rest: 20 }
+ingredients:
+  - section: Kofta
+    items:
+      - { qty: 500, unit: g, item: lamb mince, note: around 20% fat }
+      - { qty: 1, unit: null, item: onion, prep: coarsely grated and squeezed dry, note: a small one }
+      - { qty: 2, unit: clove, item: garlic, prep: finely grated }
+      - { qty: 15, unit: g, item: flat-leaf parsley, prep: finely chopped }
+      - { qty: 10, unit: g, item: fresh mint, prep: finely chopped }
+      - { qty: 2, unit: tsp, item: ground cumin }
+      - { qty: 1, unit: tsp, item: ground coriander }
+      - { qty: 1, unit: tsp, item: paprika }
+      - { qty: 0.5, unit: tsp, item: ground cinnamon }
+      - { qty: 0.5, unit: tsp, item: chilli flakes }
+      - { qty: 1, unit: tsp, item: fine salt }
+      - { qty: 0.5, unit: tsp, item: ground black pepper }
+      - { qty: 1, unit: tbsp, item: olive oil, note: for brushing, fixed: true }
+  - section: Yoghurt sauce
+    items:
+      - { qty: 250, unit: g, item: greek yoghurt }
+      - { qty: 1, unit: clove, item: garlic, prep: finely grated, note: a small one }
+      - { qty: 1, unit: null, item: lemon, note: "half juiced, half cut into wedges" }
+      - { qty: 1, unit: tbsp, item: extra virgin olive oil }
+      - { qty: 1, unit: pinch, item: salt }
+  - section: To serve
+    items:
+      - { qty: 0.5, unit: null, item: red onion, prep: very thinly sliced }
+      - { qty: 1, unit: tsp, item: sumac }
+      - { qty: 2, unit: null, item: tomatoes, prep: sliced }
+      - { qty: 4, unit: null, item: pitta bread }
+      - { qty: 1, unit: handful, item: mint leaves }
+steps:
+  - text: Put all the kofta ingredients except the oil in a large bowl. Knead firmly with one hand for a couple of minutes until the mixture turns sticky and holds together as a paste.
+    tip: Squeezing the grated onion dry and kneading properly are what stop kofta falling apart in the pan. Do not skip either.
+  - text: With damp hands, divide the mixture into 12 and shape each piece into a stubby sausage about 8 cm long. Lay on a plate, cover and chill to firm up.
+    timer: { minutes: 20, label: Chill kofta }
+  - text: While they chill, stir the yoghurt with the garlic, lemon juice, olive oil and salt. Toss the sliced red onion with the sumac and a small pinch of salt and set aside to soften.
+  - text: Heat a griddle pan or heavy frying pan over a high heat until very hot. Brush the kofta with oil and cook, turning every couple of minutes, until well browned all over and cooked through with no pink in the centre.
+    timer: { minutes: 10, label: Cook kofta }
+    tip: Leave them alone for the first 2 minutes. They release from the pan by themselves once a crust has formed.
+  - text: Rest the kofta on a warm plate for 3 minutes. Meanwhile, warm the pittas in the hot pan or a toaster.
+    timer: { minutes: 3, label: Rest kofta }
+  - text: Split the pittas and fill with kofta, tomato, sumac onions, mint leaves and a generous spoonful of yoghurt. Serve with the lemon wedges.
+equipment: [large mixing bowl, griddle pan or heavy frying pan, box grater]
+tips:
+  - To barbecue, thread the mixture onto flat metal skewers and cook over hot coals for 8–10 minutes, turning often.
+  - To oven-grill instead, cook on a rack under a hot grill for 10–12 minutes, turning once.
+substitutions:
+  - { for: lamb mince, use: beef mince or a half-and-half mix, note: "avoid extra-lean mince, which cooks up dry" }
+  - { for: pitta bread, use: flatbreads or steamed rice }
+  - { for: sumac, use: a squeeze of lemon juice }
+storage: Cooked kofta keep for 3 days in the fridge; reheat in a hot oven until piping hot. Shaped raw kofta freeze well for up to 3 months — defrost fully before cooking.
+nutrition: { kcal: 630, protein: 35, carbs: 42, fat: 35, fibre: 4 }
+cover: { hue: 16, motif: flame }
+created: 2026-10-09

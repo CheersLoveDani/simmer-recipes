@@ -1,0 +1,60 @@
+title: Fish Tacos with Lime Slaw
+description: Smoky spice-rubbed white fish, flaked into warm corn tortillas with a sharp lime and coriander slaw, avocado and a cooling soured cream sauce.
+course: main
+cuisine: mexican
+tags: [fish, tacos, quick, summer, sharing]
+diet: [pescatarian, nut-free]
+difficulty: easy
+serves: 4
+yield: 8 tacos
+time: { prep: 20, cook: 8, rest: 10 }
+ingredients:
+  - section: Lime slaw
+    items:
+      - { qty: 300, unit: g, item: red cabbage, prep: very finely shredded }
+      - { qty: 2, unit: null, item: limes, note: "zest of 1, juice of both" }
+      - { qty: 0.5, unit: tsp, item: fine salt }
+      - { qty: 1, unit: tsp, item: caster sugar }
+      - { qty: 4, unit: null, item: spring onions, prep: thinly sliced }
+      - { qty: 20, unit: g, item: fresh coriander, prep: roughly chopped }
+  - section: Lime crema
+    items:
+      - { qty: 100, unit: g, item: soured cream }
+      - { qty: 2, unit: tbsp, item: mayonnaise }
+      - { qty: 1, qtyMax: 2, unit: tsp, item: hot sauce, note: to taste }
+  - section: Fish
+    items:
+      - { qty: 500, unit: g, item: white fish fillets, prep: skinless, note: "cod, haddock or pollock" }
+      - { qty: 1, unit: tsp, item: ground cumin }
+      - { qty: 1, unit: tsp, item: smoked paprika }
+      - { qty: 0.5, unit: tsp, item: chilli powder }
+      - { qty: 0.5, unit: tsp, item: garlic powder }
+      - { qty: 0.5, unit: tsp, item: fine salt }
+      - { qty: 2, unit: tbsp, item: vegetable oil, fixed: true }
+  - section: To serve
+    items:
+      - { qty: 8, unit: null, item: corn tortillas, note: small }
+      - { qty: 1, unit: null, item: avocado, prep: sliced }
+      - { qty: 1, unit: null, item: lime, prep: cut into wedges }
+steps:
+  - text: Juice the two slaw limes and set aside 1 tbsp of the juice for the crema. Put the cabbage in a large bowl with the lime zest, the rest of the juice, the salt and sugar. Scrunch hard with your hands for a minute until it starts to soften and turn bright pink, then leave to sit.
+    timer: { minutes: 10, label: Soften slaw }
+  - text: Stir the soured cream, mayonnaise, hot sauce and reserved lime juice together in a small bowl. Taste and add more hot sauce if you like.
+  - text: Pat the fish very dry with kitchen paper and cut into strips about 3 cm wide. Mix the cumin, smoked paprika, chilli powder, garlic powder and salt, then turn the fish gently in the spices and 1 tbsp of the oil until evenly coated.
+  - text: Heat the remaining oil in a large non-stick frying pan over a medium-high heat. Lay in the fish and cook without moving it until the underside is browned, about 3 minutes, then turn carefully and cook for 2 minutes more, until opaque all the way through and just starting to flake.
+    timer: { minutes: 5, label: Cook fish }
+    tip: Cook in two batches if the pan is crowded, otherwise the fish steams and will not take on colour.
+  - text: Warm the tortillas one or two at a time in a dry frying pan over a high heat for about 30 seconds a side, until soft and lightly toasted in spots. Stack them in a clean tea towel to keep warm.
+  - text: Stir the spring onions and coriander through the slaw. Fill each tortilla with slaw, a few pieces of fish and some avocado, spoon over the crema and serve with lime wedges.
+equipment: [large non-stick frying pan, large mixing bowl, fish slice]
+tips:
+  - Corn tortillas crack if they are not properly warmed. Heat them just before serving and keep them wrapped.
+  - Choose thick fillets where you can. Thin tail pieces cook in half the time and break up easily.
+substitutions:
+  - { for: white fish, use: raw king prawns, note: "cook for 1–2 minutes a side until pink" }
+  - { for: soured cream, use: thick natural yoghurt }
+  - { for: corn tortillas, use: small flour tortillas }
+storage: Best eaten fresh. The slaw, without the herbs, and the crema both keep for 2 days in the fridge; cooked fish keeps for 1 day and is good cold.
+nutrition: { kcal: 450, protein: 28, carbs: 34, fat: 22, fibre: 7 }
+cover: { hue: 78, motif: fish }
+created: 2026-10-09
