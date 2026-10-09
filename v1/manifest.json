@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "revision": "3a7dedfbd3a3cdae",
+  "generatedAt": "2026-10-09T15:12:04.418Z",
+  "bundle": {
+    "path": "recipes.fcea50222f3d.json",
+    "hash": "fcea50222f3d",
+    "bytes": 192368
+  },
+  "recipes": [
+    {
+      "id": "apple-crumble",
+      "hash": "e161a47fe8e9",
+      "path": "r/apple-crumble.e161a47fe8e9.json"
+    },
+    {
+      "id": "banana-bread",
+      "hash": "7de829353fcd",
+      "path": "r/banana-bread.7de829353fcd.json"
+    },
+    {
+      "id": "basil-pesto",
+      "hash": "c152d63c06ef",
+      "path": "r/basil-pesto.c152d63c06ef.json"
+    },
+    {
+      "id": "beef-ragu-tagliatelle",
+      "hash": "ea1d200f87f6",
+      "path": "r/beef-ragu-tagliatelle.ea1d200f87f6.json"
+    },
+    {
+      "id": "brown-butter-miso-pasta",
+      "hash": "5a3cc83a02ca",
+      "path": "r/brown-butter-miso-pasta.5a3cc83a02ca.json"
+    },
+    {
+      "id": "buttermilk-pancakes",
+      "hash": "99ab14186edf",
+      "path": "r/buttermilk-pancakes.99ab14186edf.json"
+    },
+    {
+      "id": "buttermilk-scones",
+      "hash": "91e6441362f9",
+      "path": "r/buttermilk-scones.91e6441362f9.json"
+    },
+    {
+      "id": "caesar-salad",
+      "hash": "3714c67bce46",
+      "path": "r/caesar-salad.3714c67bce46.json"
+    },
+    {
+      "id": "chicken-noodle-soup",
+      "hash": "c091945000f5",
+      "path": "r/chicken-noodle-soup.c091945000f5.json"
+    },
+    {
+      "id": "chickpea-spinach-curry",
+      "hash": "9e5d0b1db1f0",
+      "path": "r/chickpea-spinach-curry.9e5d0b1db1f0.json"
+    },
+    {
+      "id": "chilli-garlic-prawn-linguine",
+      "hash": "3eab2d52ed04",
+      "path": "r/chilli-garlic-prawn-linguine.3eab2d52ed04.json"
+    },
+    {
+      "id": "chimichurri",
+      "hash": "90330d486948",
+      "path": "r/chimichurri.90330d486948.json"
+    },
+    {
+      "id": "chocolate-chip-cookies",
+      "hash": "4d4cd38bb3ea",
+      "path": "r/chocolate-chip-cookies.4d4cd38bb3ea.json"
+    },
+    {
+      "id": "crispy-roast-potatoes",
+      "hash": "5a2a59da46c5",
+      "path": "r/crispy-roast-potatoes.5a2a59da46c5.json"
+    },
+    {
+      "id": "crunchy-peanut-noodle-salad",
+      "hash": "fb6bdd5c1299",
+      "path": "r/crunchy-peanut-noodle-salad.fb6bdd5c1299.json"
+    },
+    {
+      "id": "dark-chocolate-mousse",
+      "hash": "8851b8e81669",
+      "path": "r/dark-chocolate-mousse.8851b8e81669.json"
+    },
+    {
+      "id": "fish-tacos-lime-slaw",
+      "hash": "c964a6e88674",
+      "path": "r/fish-tacos-lime-slaw.c964a6e88674.json"
+    },
+    {
+      "id": "french-omelette",
+      "hash": "337e305ba957",
+      "path": "r/french-omelette.337e305ba957.json"
+    },
+    {
+      "id": "french-onion-soup",
+      "hash": "8d9f7de4fba6",
+      "path": "r/french-onion-soup.8d9f7de4fba6.json"
+    },
+    {
+      "id": "fudgy-brownies",
+      "hash": "0388d036de59",
+      "path": "r/fudgy-brownies.0388d036de59.json"
+    },
+    {
+      "id": "garlic-green-beans",
+      "hash": "d0007ec1dfe0",
+      "path": "r/garlic-green-beans.d0007ec1dfe0.json"
+    },
+    {
+      "id": "ginger-pork-noodles",
+      "hash": "2889bf335ab1",
+      "path": "r/ginger-pork-noodles.2889bf335ab1.json"
+    },
+    {
+      "id": "greek-salad",
+      "hash": "1ed85491cbde",
+      "path": "r/greek-salad.1ed85491cbde.json"
+    },
+    {
+      "id": "guacamole",
+      "hash": "191a4c3a3459",
+      "path": "r/guacamole.191a4c3a3459.json"
+    },
+    {
+      "id": "hummus",
+      "hash": "2fa1d9862020",
+      "path": "r/hummus.2fa1d9862020.json"
+    },
+    {
+      "id": "kimchi-fried-rice",
+      "hash": "7871f0e71a46",
+      "path": "r/kimchi-fried-rice.7871f0e71a46.json"
+    },
+    {
+      "id": "lamb-kofta-with-yoghurt",
+      "hash": "8509944d57d3",
+      "path": "r/lamb-kofta-with-yoghurt.8509944d57d3.json"
+    },
+    {
+      "id": "lemon-chicken-traybake",
+      "hash": "948baa739e4e",
+      "path": "r/lemon-chicken-traybake.948baa739e4e.json"
+    },
+    {
+      "id": "lemon-drizzle-cake",
+      "hash": "9db6f570d679",
+      "path": "r/lemon-drizzle-cake.9db6f570d679.json"
+    },
+    {
+      "id": "maple-pecan-granola",
+      "hash": "afcb437167bb",
+      "path": "r/maple-pecan-granola.afcb437167bb.json"
+    },
+    {
+      "id": "masala-chai",
+      "hash": "eade24f22305",
+      "path": "r/masala-chai.eade24f22305.json"
+    },
+    {
+      "id": "mint-lemonade",
+      "hash": "c29c1a5e2b19",
+      "path": "r/mint-lemonade.c29c1a5e2b19.json"
+    },
+    {
+      "id": "miso-soup-with-tofu",
+      "hash": "23f1b5defc8d",
+      "path": "r/miso-soup-with-tofu.23f1b5defc8d.json"
+    },
+    {
+      "id": "mushroom-risotto",
+      "hash": "679179a21ae8",
+      "path": "r/mushroom-risotto.679179a21ae8.json"
+    },
+    {
+      "id": "no-knead-bread",
+      "hash": "14e00af08818",
+      "path": "r/no-knead-bread.14e00af08818.json"
+    },
+    {
+      "id": "overnight-oats",
+      "hash": "6892a0e063a8",
+      "path": "r/overnight-oats.6892a0e063a8.json"
+    },
+    {
+      "id": "roast-aubergine-tahini-pomegranate",
+      "hash": "23bfa57fb9ec",
+      "path": "r/roast-aubergine-tahini-pomegranate.23bfa57fb9ec.json"
+    },
+    {
+      "id": "roasted-tomato-soup",
+      "hash": "ea2cc9a24c87",
+      "path": "r/roasted-tomato-soup.ea2cc9a24c87.json"
+    },
+    {
+      "id": "rosemary-focaccia",
+      "hash": "75b9de94cbfc",
+      "path": "r/rosemary-focaccia.75b9de94cbfc.json"
+    },
+    {
+      "id": "shakshuka",
+      "hash": "f789bdc871e1",
+      "path": "r/shakshuka.f789bdc871e1.json"
+    },
+    {
+      "id": "slow-cooked-tomato-sauce",
+      "hash": "8154ed0a82d4",
+      "path": "r/slow-cooked-tomato-sauce.8154ed0a82d4.json"
+    },
+    {
+      "id": "smash-burgers",
+      "hash": "19868261b582",
+      "path": "r/smash-burgers.19868261b582.json"
+    },
+    {
+      "id": "smoky-beef-chilli",
+      "hash": "9fb794ebe049",
+      "path": "r/smoky-beef-chilli.9fb794ebe049.json"
+    },
+    {
+      "id": "soy-ginger-glazed-salmon",
+      "hash": "0679e6a996c6",
+      "path": "r/soy-ginger-glazed-salmon.0679e6a996c6.json"
+    },
+    {
+      "id": "tabbouleh",
+      "hash": "2e26d99c6438",
+      "path": "r/tabbouleh.2e26d99c6438.json"
+    },
+    {
+      "id": "tarka-dal",
+      "hash": "634ba49d41ca",
+      "path": "r/tarka-dal.634ba49d41ca.json"
+    },
+    {
+      "id": "thai-green-chicken-curry",
+      "hash": "2ef6dc9dac68",
+      "path": "r/thai-green-chicken-curry.2ef6dc9dac68.json"
+    },
+    {
+      "id": "tomato-bruschetta",
+      "hash": "821265672db0",
+      "path": "r/tomato-bruschetta.821265672db0.json"
+    },
+    {
+      "id": "vanilla-panna-cotta",
+      "hash": "54bd97a2f54f",
+      "path": "r/vanilla-panna-cotta.54bd97a2f54f.json"
+    }
+  ],
+  "images": []
+}
