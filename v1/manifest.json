@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "revision": "5371659233d03974",
-  "generatedAt": "2026-10-09T20:08:15.003Z",
+  "revision": "4b1cf9b5d1b148d7",
+  "generatedAt": "2026-10-09T21:08:33.952Z",
   "bundle": {
-    "path": "recipes.ac5dbf9154eb.json",
-    "hash": "ac5dbf9154eb",
-    "bytes": 64587
+    "path": "recipes.1351452e5dd6.json",
+    "hash": "1351452e5dd6",
+    "bytes": 68440
   },
   "recipes": [
     {
@@ -77,6 +77,11 @@
       "id": "hummus",
       "hash": "8526eee51705",
       "path": "r/hummus.8526eee51705.json"
+    },
+    {
+      "id": "jollof-rice",
+      "hash": "fd0575776e64",
+      "path": "r/jollof-rice.fd0575776e64.json"
     },
     {
       "id": "kimchi-fried-rice-with-a-fried-egg",
