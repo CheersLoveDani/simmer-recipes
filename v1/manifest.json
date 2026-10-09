@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "f56fc85c4df1d782",
-  "generatedAt": "2026-10-09T19:33:31.586Z",
+  "revision": "beb7f619b7311fb3",
+  "generatedAt": "2026-10-09T19:41:12.900Z",
   "bundle": {
     "path": "recipes.4def4ff641ca.json",
     "hash": "4def4ff641ca",
@@ -130,5 +130,6 @@
       "hash": "8471335249a6",
       "path": "img/thai-green-chicken-curry.8471335249a6.webp"
     }
-  ]
+  ],
+  "themes": []
 }
