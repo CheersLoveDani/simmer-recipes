@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "revision": "beb7f619b7311fb3",
-  "generatedAt": "2026-10-09T19:41:12.900Z",
+  "revision": "5371659233d03974",
+  "generatedAt": "2026-10-09T20:08:15.003Z",
   "bundle": {
-    "path": "recipes.4def4ff641ca.json",
-    "hash": "4def4ff641ca",
-    "bytes": 51949
+    "path": "recipes.ac5dbf9154eb.json",
+    "hash": "ac5dbf9154eb",
+    "bytes": 64587
   },
   "recipes": [
     {
@@ -17,6 +17,11 @@
       "id": "basil-pesto",
       "hash": "17781c823bba",
       "path": "r/basil-pesto.17781c823bba.json"
+    },
+    {
+      "id": "brigadeiros",
+      "hash": "fbdc6bc07a9a",
+      "path": "r/brigadeiros.fbdc6bc07a9a.json"
     },
     {
       "id": "buttermilk-scones",
@@ -37,6 +42,11 @@
       "id": "crispy-roast-potatoes",
       "hash": "5a2a59da46c5",
       "path": "r/crispy-roast-potatoes.5a2a59da46c5.json"
+    },
+    {
+      "id": "currywurst-with-fried-potatoes",
+      "hash": "d80060599f83",
+      "path": "r/currywurst-with-fried-potatoes.d80060599f83.json"
     },
     {
       "id": "dark-chocolate-mousse",
@@ -67,6 +77,16 @@
       "id": "hummus",
       "hash": "8526eee51705",
       "path": "r/hummus.8526eee51705.json"
+    },
+    {
+      "id": "kimchi-fried-rice-with-a-fried-egg",
+      "hash": "19ca6e07eec7",
+      "path": "r/kimchi-fried-rice-with-a-fried-egg.19ca6e07eec7.json"
+    },
+    {
+      "id": "potato-rosti",
+      "hash": "d01f7081e8d6",
+      "path": "r/potato-rosti.d01f7081e8d6.json"
     },
     {
       "id": "thai-green-chicken-curry",
@@ -131,5 +151,177 @@
       "path": "img/thai-green-chicken-curry.8471335249a6.webp"
     }
   ],
-  "themes": []
+  "themes": [
+    {
+      "id": "overwatch",
+      "name": "Overwatch",
+      "accent": "#a66911",
+      "accentDark": "#f99e1a",
+      "description": "Recipes inspired by the heroes of Overwatch and where they come from.",
+      "credit": "Unofficial fan theme. Overwatch is a trademark of Blizzard Entertainment, which has no connection with this project. The background pattern is original to Simmer.",
+      "art": "img/t/overwatch/hex.1f76b65f0c27.svg",
+      "styles": {
+        "ana": {
+          "label": "Ana",
+          "accent": "#607598",
+          "accentDark": "#899ec0"
+        },
+        "ashe": {
+          "label": "Ashe",
+          "accent": "#817345",
+          "accentDark": "#b3a05f"
+        },
+        "baptiste": {
+          "label": "Baptiste",
+          "accent": "#3c7b8d",
+          "accentDark": "#57b2cb"
+        },
+        "bastion": {
+          "label": "Bastion",
+          "accent": "#697968",
+          "accentDark": "#8b9c8a"
+        },
+        "brigitte": {
+          "label": "Brigitte",
+          "accent": "#a1625d",
+          "accentDark": "#c98b87"
+        },
+        "cassidy": {
+          "label": "Cassidy",
+          "accent": "#ae595c",
+          "accentDark": "#c78c8f"
+        },
+        "dva": {
+          "label": "D.Va",
+          "accent": "#9e6284",
+          "accentDark": "#ed93c7"
+        },
+        "doomfist": {
+          "label": "Doomfist",
+          "accent": "#815049",
+          "accentDark": "#b29490"
+        },
+        "echo": {
+          "label": "Echo",
+          "accent": "#517696",
+          "accentDark": "#89c8ff"
+        },
+        "genji": {
+          "label": "Genji",
+          "accent": "#528224",
+          "accentDark": "#97ef43"
+        },
+        "hanzo": {
+          "label": "Hanzo",
+          "accent": "#7b785c",
+          "accentDark": "#b9b48a"
+        },
+        "junkrat": {
+          "label": "Junkrat",
+          "accent": "#8b6f31",
+          "accentDark": "#ecbd53"
+        },
+        "lucio": {
+          "label": "Lúcio",
+          "accent": "#558034",
+          "accentDark": "#85c952"
+        },
+        "mei": {
+          "label": "Mei",
+          "accent": "#4d77a4",
+          "accentDark": "#6faced"
+        },
+        "mercy": {
+          "label": "Mercy",
+          "accent": "#75745d",
+          "accentDark": "#ebe8bb"
+        },
+        "moira": {
+          "label": "Moira",
+          "accent": "#803c51",
+          "accentDark": "#b68f9b"
+        },
+        "orisa": {
+          "label": "Orisa",
+          "accent": "#41813e",
+          "accentDark": "#6fa56c"
+        },
+        "pharah": {
+          "label": "Pharah",
+          "accent": "#3c78c2",
+          "accentDark": "#71a0d8"
+        },
+        "reaper": {
+          "label": "Reaper",
+          "accent": "#7d3e51",
+          "accentDark": "#b5909b"
+        },
+        "reinhardt": {
+          "label": "Reinhardt",
+          "accent": "#6e767a",
+          "accentDark": "#929da3"
+        },
+        "roadhog": {
+          "label": "Roadhog",
+          "accent": "#8e6e40",
+          "accentDark": "#ba935c"
+        },
+        "sigma": {
+          "label": "Sigma",
+          "accent": "#238276",
+          "accentDark": "#33bbaa"
+        },
+        "soldier-76": {
+          "label": "Soldier: 76",
+          "accent": "#65728e",
+          "accentDark": "#919bb0"
+        },
+        "sombra": {
+          "label": "Sombra",
+          "accent": "#7359ba",
+          "accentDark": "#a493d2"
+        },
+        "symmetra": {
+          "label": "Symmetra",
+          "accent": "#5b7882",
+          "accentDark": "#8ebccc"
+        },
+        "torbjorn": {
+          "label": "Torbjörn",
+          "accent": "#a3615d",
+          "accentDark": "#cb8a87"
+        },
+        "tracer": {
+          "label": "Tracer",
+          "accent": "#9b6a30",
+          "accentDark": "#d79342"
+        },
+        "widowmaker": {
+          "label": "Widowmaker",
+          "accent": "#92629b",
+          "accentDark": "#b38bbb"
+        },
+        "winston": {
+          "label": "Winston",
+          "accent": "#707384",
+          "accentDark": "#a2a6bf"
+        },
+        "wrecking-ball": {
+          "label": "Wrecking Ball",
+          "accent": "#9e6a30",
+          "accentDark": "#db9342"
+        },
+        "zarya": {
+          "label": "Zarya",
+          "accent": "#a75b83",
+          "accentDark": "#e77eb6"
+        },
+        "zenyatta": {
+          "label": "Zenyatta",
+          "accent": "#7b7744",
+          "accentDark": "#ede582"
+        }
+      }
+    }
+  ]
 }
