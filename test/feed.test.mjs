@@ -181,14 +181,22 @@ test('images are content-addressed and linked from the recipe', async () => {
   await mkdir(path.join(root, 'images'));
   await writeFile(path.join(root, 'images', 'garlic-toast.webp'), 'not really a webp');
   const out = path.join(root, 'dist');
+  await assert.rejects(buildFeed(root, out), /garlic-toast\.webp needs "author" in images\/credits\.yaml/);
+  const credit = { author: 'A. Baker', license: 'CC BY 4.0', source: 'https://example.org/toast' };
+  await writeFile(path.join(root, 'images', 'credits.yaml'), JSON.stringify({ 'garlic-toast': { ...credit, title: 'Toast' } }));
   const manifest = await buildFeed(root, out);
   assert.equal(manifest.images.length, 1);
   const recipe = JSON.parse(await readFile(path.join(out, 'v1', manifest.recipes[0].path), 'utf8'));
   assert.equal(recipe.image, manifest.images[0].path);
+  assert.deepEqual(recipe.imageCredit, credit);
   assert.equal(await readFile(path.join(out, 'v1', recipe.image), 'utf8'), 'not really a webp');
 
   await writeFile(path.join(root, 'images', 'orphan.webp'), 'x');
   await assert.rejects(buildFeed(root, out), /orphan\.webp has no matching recipe/);
+  await rm(path.join(root, 'images', 'orphan.webp'));
+
+  await writeFile(path.join(root, 'images', 'credits.yaml'), JSON.stringify({ 'garlic-toast': credit, gone: credit }));
+  await assert.rejects(buildFeed(root, out), /lists "gone" but images\/gone\.webp does not exist/);
 });
 
 test('every recipe in this repository is valid', async () => {

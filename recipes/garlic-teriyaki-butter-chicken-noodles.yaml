@@ -1,0 +1,46 @@
+title: Garlic Teriyaki Butter Chicken Noodles
+description: Egg noodles tossed with cooked chicken, stir-fry vegetables and a glossy sauce of teriyaki, dark soy and melted butter. A store-cupboard and freezer dinner that takes about as long as the noodles do to boil.
+course: main
+cuisine: japanese
+tags: [noodles, stir-fry, weeknight, quick, chicken, store-cupboard]
+diet: [nut-free]
+difficulty: easy
+serves: 2
+time: { prep: 5, cook: 12 }
+ingredients:
+  - section: Noodles
+    items:
+      - { qty: 125, unit: g, item: dried egg noodles, key: egg noodles, note: about 2 nests }
+      - { qty: 1, unit: tbsp, item: vegetable oil, fixed: true }
+      - { qty: 200, unit: g, item: mixed stir-fry vegetables, note: frozen or fresh ready-chopped }
+      - { qty: 1, unit: tsp, item: chopped garlic from a jar, key: garlic, note: a heaped teaspoon }
+      - { qty: 1, unit: tsp, item: frozen chopped ginger, key: fresh ginger }
+      - { qty: 150, unit: g, item: cooked chicken pieces, note: frozen chunks or fridge slices }
+  - section: Sauce
+    items:
+      - { qty: 3, unit: tbsp, item: teriyaki sauce }
+      - { qty: 1, unit: tbsp, item: dark soy sauce }
+      - { qty: 25, unit: g, item: unsalted butter }
+      - { qty: null, unit: null, item: Japanese seven spice (shichimi togarashi), key: shichimi togarashi, note: to serve }
+steps:
+  - text: Cook the noodles in boiling water following the packet timing. Drain them well and set aside.
+    timer: { minutes: 4, label: Noodles }
+  - text: Heat the oil in a wok or large frying pan over a medium heat. Add the vegetables, garlic and ginger and stir-fry until the vegetables are tender, or fully thawed and hot if they came from the freezer.
+    timer: { minutes: 4, label: Vegetables }
+  - text: Add the chicken and stir until it is hot all the way through.
+    timer: { minutes: 2, label: Warm chicken }
+    tip: Frozen cooked chicken needs longer. Give it a few extra minutes and check a large piece is piping hot in the middle.
+  - text: Turn the heat down low. Add the teriyaki sauce, dark soy sauce and butter, and stir as the butter melts into a thick, glossy sauce.
+  - text: Add the drained noodles and toss for a minute, until the noodles, chicken and vegetables are evenly coated.
+    timer: { minutes: 1, label: Toss }
+  - text: Serve in bowls with a sprinkle of Japanese seven spice.
+equipment: [wok or large frying pan, saucepan, colander, tongs]
+tips:
+  - Teriyaki sauces vary in sweetness and salt. Taste before serving and add a splash more soy or a little water to suit.
+substitutions:
+  - { for: chopped garlic from a jar, use: 2 cloves of garlic, note: finely chopped }
+  - { for: frozen chopped ginger, use: fresh ginger, note: "a thumb-sized piece, finely grated" }
+  - { for: cooked chicken pieces, use: "prawns, tofu or leftover roast chicken" }
+storage: Keeps for 2 days in the fridge. Reheat in a hot pan with a splash of water until piping hot.
+cover: { hue: 32, motif: noodles }
+created: 2026-10-09

@@ -199,20 +199,33 @@ export async function buildFeed(root, outDir, { now = new Date() } = {}) {
   const imageDir = path.join(root, 'images');
   const imageFiles = existsSync(imageDir) ? (await readdir(imageDir)).filter((f) => f.endsWith('.webp')).sort() : [];
   const known = new Set(recipes.map((r) => r.id));
+  // Photos come from other people under open licences, which require credit.
+  const creditsFile = path.join(imageDir, 'credits.yaml');
+  const credits = existsSync(creditsFile) ? (YAML.parse(await readFile(creditsFile, 'utf8')) ?? {}) : {};
+  for (const id of Object.keys(credits)) {
+    if (!imageFiles.includes(`${id}.webp`)) throw new Error(`images/credits.yaml lists "${id}" but images/${id}.webp does not exist`);
+  }
   for (const file of imageFiles) {
     const id = path.basename(file, '.webp');
     if (!known.has(id)) throw new Error(`images/${file} has no matching recipe`);
+    const credit = credits[id];
+    for (const field of ['author', 'license', 'source']) {
+      if (typeof credit?.[field] !== 'string' || !credit[field].trim()) {
+        throw new Error(`images/${file} needs "${field}" in images/credits.yaml`);
+      }
+    }
     const hash = sha(await readFile(path.join(imageDir, file)));
     const rel = `img/${id}.${hash}.webp`;
     await copyFile(path.join(imageDir, file), path.join(feedDir, rel));
     images.push({ id, hash, path: rel });
   }
   const imageById = new Map(images.map((i) => [i.id, i.path]));
+  const creditFor = ({ author, license, licenseUrl, source }) => ({ author, license, ...(licenseUrl ? { licenseUrl } : {}), source });
 
   const entries = [];
   const compiled = [];
   for (const body of recipes) {
-    const withImage = imageById.has(body.id) ? { ...body, image: imageById.get(body.id) } : body;
+    const withImage = imageById.has(body.id) ? { ...body, image: imageById.get(body.id), imageCredit: creditFor(credits[body.id]) } : body;
     const hash = sha(canonicalJson(withImage));
     const recipe = { ...withImage, hash };
     const rel = `r/${recipe.id}.${hash}.json`;

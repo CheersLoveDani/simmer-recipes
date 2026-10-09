@@ -87,7 +87,22 @@ dish; `motif` is one of
 `bowl noodles leaf loaf citrus flame drop grain fish egg berry pepper cup slice pot`.
 
 To add a photo, put a WebP at `images/<id>.webp`, ideally 1200 px wide and
-under 200 KB. It must be your own work or CC BY-SA compatible.
+under 200 KB, and credit it in `images/credits.yaml`:
+
+```yaml
+<id>:
+  title: Name of the original photo
+  author: Who made it
+  license: CC BY-SA 4.0
+  licenseUrl: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:...
+```
+
+The photo must be your own work, public domain, CC0, CC BY or CC BY-SA.
+Nothing marked NC (non-commercial) or ND (no derivatives), and nothing copied
+from a recipe site, shop or search result without one of those licences. The
+build fails if a photo has no credit, and the app shows the credit under the
+recipe.
 
 ### Style
 

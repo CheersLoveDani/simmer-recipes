@@ -14,6 +14,7 @@ takes to put it on everyone's device.
 | `recipes/<id>.yaml` | One recipe per file. The file name is the recipe's permanent id. |
 | `data/ingredients/<aisle>.yaml` | Every known ingredient, the shop aisle it lives in, and other names for it. |
 | `images/<id>.webp` | Optional cover photo for a recipe. |
+| `images/credits.yaml` | Author, licence and source of every photo. |
 | `schema/recipe.schema.json` | The recipe format. |
 | `scripts/` | Validation and feed build. |
 
@@ -54,7 +55,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the recipe format and house style.
 
 ## Licence
 
-- Recipes, ingredient data and images: [CC BY-SA 4.0](LICENSE). You may share
+- Recipes and ingredient data: [CC BY-SA 4.0](LICENSE). You may share
   and adapt them, including commercially, provided you give credit and release
   your version under the same licence.
+- Photos: each belongs to its photographer and keeps its own open licence
+  (public domain, CC0, CC BY or CC BY-SA), listed in
+  [images/credits.yaml](images/credits.yaml). Most come from Wikimedia Commons
+  and have been cropped and resized.
 - Schema and scripts: [AGPL-3.0-or-later](LICENSE-CODE).
