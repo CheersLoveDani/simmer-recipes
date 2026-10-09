@@ -214,6 +214,11 @@ export async function buildFeed(root, outDir, { now = new Date() } = {}) {
         throw new Error(`images/${file} needs "${field}" in images/credits.yaml`);
       }
     }
+    for (const field of ['source', 'licenseUrl']) {
+      if (credit[field] !== undefined && !/^https:\/\/\S+$/.test(credit[field])) {
+        throw new Error(`images/${file}: "${field}" in images/credits.yaml must be an https link`);
+      }
+    }
     const hash = sha(await readFile(path.join(imageDir, file)));
     const rel = `img/${id}.${hash}.webp`;
     await copyFile(path.join(imageDir, file), path.join(feedDir, rel));

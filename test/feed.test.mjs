@@ -195,6 +195,9 @@ test('images are content-addressed and linked from the recipe', async () => {
   await assert.rejects(buildFeed(root, out), /orphan\.webp has no matching recipe/);
   await rm(path.join(root, 'images', 'orphan.webp'));
 
+  await writeFile(path.join(root, 'images', 'credits.yaml'), JSON.stringify({ 'garlic-toast': { ...credit, source: 'javascript:alert(1)' } }));
+  await assert.rejects(buildFeed(root, out), /"source" in images\/credits\.yaml must be an https link/);
+
   await writeFile(path.join(root, 'images', 'credits.yaml'), JSON.stringify({ 'garlic-toast': credit, gone: credit }));
   await assert.rejects(buildFeed(root, out), /lists "gone" but images\/gone\.webp does not exist/);
 });
