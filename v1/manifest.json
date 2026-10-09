@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "4b1cf9b5d1b148d7",
-  "generatedAt": "2026-10-09T21:08:33.952Z",
+  "revision": "cceb54a496773cb0",
+  "generatedAt": "2026-10-09T21:11:50.741Z",
   "bundle": {
     "path": "recipes.1351452e5dd6.json",
     "hash": "1351452e5dd6",
@@ -204,7 +204,8 @@
         "doomfist": {
           "label": "Doomfist",
           "accent": "#815049",
-          "accentDark": "#b29490"
+          "accentDark": "#b29490",
+          "art": "img/t/overwatch/impact.185bec748899.svg"
         },
         "echo": {
           "label": "Echo",
