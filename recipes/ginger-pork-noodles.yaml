@@ -28,8 +28,16 @@ ingredients:
       - { qty: 1, unit: null, item: red chilli, prep: finely sliced, optional: true }
       - { qty: 1, unit: null, item: carrot, prep: cut into thin matchsticks }
       - { qty: 2, unit: null, item: pak choi, prep: "stems sliced, leaves left whole" }
+prep:
+  - text: Stir the sauce ingredients together in a small bowl until the cornflour has dissolved.
+  - text: Peel the ginger and cut it into fine matchsticks.
+  - text: Finely chop the garlic.
+  - text: Slice the spring onions, keeping the whites and greens separate.
+  - text: Finely slice the chilli, if using.
+  - text: Cut the carrot into thin matchsticks.
+  - text: Slice the pak choi stems, leaving the leaves whole.
 steps:
-  - text: Stir the sauce ingredients together in a small bowl until the cornflour has dissolved. Prepare all the vegetables and have everything within reach of the hob, because nothing waits once the cooking starts.
+  - text: Set the sauce and all the prepared vegetables within reach of the hob, because nothing waits once the cooking starts.
   - text: Cook the noodles in boiling water following the packet timing, until just tender. Drain, rinse briefly under cold water to stop them cooking, then toss with the sesame oil so they do not stick together.
     timer: { minutes: 4, label: Noodles }
   - text: Heat a wok or large frying pan over a high heat until very hot, then add the vegetable oil. Add the pork, press it out into a thin layer and leave it without stirring until the underside is browned and crisp.

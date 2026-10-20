@@ -20,14 +20,21 @@ ingredients:
     items:
       - { qty: 40, unit: g, item: desiccated coconut }
       - { qty: 2, unit: tbsp, item: cocoa powder }
+prep:
+  - text: Sift the cocoa powder.
+  - text: Lightly butter a shallow dish.
+  - text: Put the coconut and the extra cocoa for coating in two shallow bowls.
+    during: 3
+  - text: Set out small paper cases on a tray, if using.
+    during: 3
 steps:
-  - text: Lightly butter a shallow dish. Put the condensed milk, cocoa, butter and salt in a heavy-based non-stick saucepan and stir until there are no dry pockets of cocoa.
+  - text: Put the condensed milk, cocoa, butter and salt in a heavy-based non-stick saucepan and stir until there are no dry pockets of cocoa.
   - text: Set the pan over a medium-low heat and cook, stirring all the time and scraping the base and corners, until the mixture is thick and glossy. It is ready when a spoon dragged across the base leaves a clear trail that takes a couple of seconds to close.
     timer: { minutes: 10, label: Cook fudge }
     tip: Do not walk away. Condensed milk catches and scorches quickly once it thickens.
   - text: Scrape the mixture into the buttered dish, press cling film or baking paper onto the surface and leave to cool, then chill until firm enough to roll.
     timer: { minutes: 60, label: Chill }
-  - text: Put the coconut and the extra cocoa in two shallow bowls. Butter your palms, scoop out heaped teaspoons of the mixture and roll them into balls.
+  - text: Butter your palms, scoop out heaped teaspoons of the mixture and roll them into balls.
   - text: Roll half the balls in coconut and half in cocoa. Set them in small paper cases if you have them and serve at room temperature.
 equipment: [non-stick saucepan, silicone spatula, shallow dish]
 tips:

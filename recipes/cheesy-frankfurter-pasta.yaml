@@ -20,10 +20,20 @@ ingredients:
       - { qty: 60, unit: g, item: cheddar, prep: grated }
       - { qty: null, unit: null, item: salt, note: for the pasta water }
       - { qty: null, unit: null, item: black pepper, note: to taste }
+prep:
+  - text: Finely chop the onion.
+  - text: Slice the frankfurters into coins.
+    during: 1
+  - text: Chop the gherkins.
+    during: 1
+  - text: Grate the cheese.
+    during: 1
+  - text: Thinly slice the spring onions.
+    during: 1
 steps:
   - text: Bring a large pan of salted water to the boil and cook the pasta until just tender.
     timer: { minutes: 10, label: Pasta }
-    tip: Save a mug of the cooking water before draining.
+    tip: Use this time for the rest of the prep. Save a mug of the cooking water before draining.
   - text: Meanwhile, heat the oil in a large frying pan over a medium heat and cook the onion until soft and lightly golden.
     timer: { minutes: 5, label: Soften onion }
   - text: Add the frankfurter coins and fry, stirring now and then, until browned at the edges.

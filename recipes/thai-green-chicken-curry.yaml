@@ -26,6 +26,19 @@ ingredients:
     items:
       - { qty: 300, unit: g, item: jasmine rice }
       - { qty: 450, unit: ml, item: cold water }
+prep:
+  - text: Remove any skin from the chicken thighs and cut them into bite-sized pieces.
+  - text: Measure out the stock, fish sauce and sugar.
+  - text: Trim and halve the green beans.
+    during: 4
+  - text: Cut the courgette into half-moons.
+    during: 4
+  - text: Juice the lime.
+    during: 5
+  - text: Thinly slice the red chilli, if using.
+    during: 5
+  - text: Pick the basil leaves from their stalks.
+    during: 5
 steps:
   - text: Rinse the rice in a sieve until the water runs mostly clear. Put it in a saucepan with the measured water and a pinch of salt, bring to the boil, then cover with a tight lid and turn the heat to its lowest setting.
     timer: { minutes: 12, label: Rice }

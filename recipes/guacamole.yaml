@@ -16,6 +16,11 @@ ingredients:
       - { qty: 0.5, unit: tsp, item: flaky sea salt, key: salt, note: plus extra to taste }
       - { qty: 3, unit: null, item: avocados, key: avocado, note: ripe }
       - { qty: 2, unit: tbsp, item: lime juice, key: lime, note: about 1 lime }
+prep:
+  - text: Very finely chop the red onion.
+  - text: Finely chop the green chilli, deseeding it first for less heat.
+  - text: Finely chop the coriander leaves and tender stalks.
+  - text: Squeeze the lime to give 2 tbsp juice.
 steps:
   - text: Put the onion, chilli, half the coriander and the salt on a board or in a mortar. Crush with the flat of a knife or the pestle until you have a coarse, wet paste.
     tip: Crushing the aromatics with the salt releases their juices, which then season the avocado evenly instead of sitting in raw chunks.

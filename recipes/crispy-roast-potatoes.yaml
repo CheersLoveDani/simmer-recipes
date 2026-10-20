@@ -15,8 +15,12 @@ ingredients:
       - { qty: 4, unit: clove, item: garlic, prep: unpeeled and lightly crushed }
       - { qty: 3, unit: sprig, item: rosemary }
       - { qty: null, unit: null, item: flaky sea salt, key: salt, note: to finish }
+prep:
+  - text: Peel the potatoes and cut them into even pieces roughly the size of a small egg, with plenty of flat sides and sharp corners.
+  - text: Lightly crush the garlic cloves, leaving them unpeeled.
+    during: 5
 steps:
-  - text: Heat the oven to 220°C (200°C fan). Peel the potatoes and cut them into even pieces roughly the size of a small egg, aiming for plenty of flat sides and sharp corners.
+  - text: Heat the oven to 220°C (200°C fan).
   - text: Put the potatoes in a large pan, cover with cold water and add the tablespoon of salt. Bring to the boil, then simmer until the outsides are soft and starting to break up but a knife still meets resistance in the centre.
     timer: { minutes: 8, label: Parboil }
     tip: Start timing from when the water reaches a simmer. Undercooked edges will not rough up, and that rough surface is what turns crisp.

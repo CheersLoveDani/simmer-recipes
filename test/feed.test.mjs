@@ -102,6 +102,25 @@ test('reports an unknown ingredient', async () => {
   assert.match(errors[0].message, /unknown ingredient "unobtainium"/);
 });
 
+test('passes prep tasks through and checks their step numbers', async () => {
+  const recipe = base();
+  recipe.prep = [{ text: 'Peel the garlic.' }, { text: 'Get a plate ready.', during: 1 }];
+  await writeRecipe('garlic-toast', recipe);
+  const { recipes } = await loadRecipes(root);
+  assert.deepEqual(recipes[0].prep, recipe.prep);
+
+  recipe.prep[1].during = 2;
+  await writeRecipe('garlic-toast', recipe);
+  const { errors } = await loadRecipes(root);
+  assert.match(errors[0].message, /prep 2: "during: 2" but there are only 1 steps/);
+});
+
+test('leaves prep out of the feed when a recipe has none', async () => {
+  await writeRecipe('garlic-toast', base());
+  const { recipes } = await loadRecipes(root);
+  assert.equal('prep' in recipes[0], false);
+});
+
 test('reports schema violations with the file name', async () => {
   const recipe = base();
   recipe.course = 'elevenses';

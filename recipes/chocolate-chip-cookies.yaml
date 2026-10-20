@@ -21,12 +21,25 @@ ingredients:
       - { qty: 0.5, unit: tsp, item: fine salt }
       - { qty: 200, unit: g, item: dark chocolate, prep: chopped into rough chunks }
       - { qty: null, unit: null, item: flaky sea salt, note: a pinch for each cookie, optional: true }
+prep:
+  - text: Weigh the light brown and caster sugars into a bowl.
+    during: 1
+  - text: Separate one egg, keeping the yolk and saving the white for another recipe.
+    during: 1
+  - text: Weigh out the flour with the bicarbonate of soda and fine salt.
+    during: 1
+  - text: Chop the dark chocolate into rough chunks.
+    during: 1
+  - text: Heat the oven to 180°C (160°C fan).
+    during: 4
+  - text: Line two large baking trays with baking paper.
+    during: 4
 steps:
   - text: Melt the butter in a small pan over a low heat, then pour it into a large bowl and leave it for 5 minutes so it is warm rather than hot.
     timer: { minutes: 5, label: Cool butter }
   - text: Add both sugars to the butter and whisk for a full minute until thick and glossy. Whisk in the egg, egg yolk and vanilla until the mixture is smooth and looks like loose caramel.
   - text: Tip in the flour, bicarbonate of soda and fine salt and stir with a spatula until only a few floury streaks remain. Add the chocolate and fold until evenly distributed and no dry flour is left.
-  - text: Cover the bowl and chill the dough for 30 minutes, until firm enough to scoop. Meanwhile, heat the oven to 180°C (160°C fan) and line two large baking trays with baking paper.
+  - text: Cover the bowl and chill the dough for 30 minutes, until firm enough to scoop.
     timer: { minutes: 30, label: Chill dough }
     tip: Chilling stops the cookies spreading into thin discs. A longer rest of up to 48 hours in the fridge gives a deeper, more toffee-like flavour.
   - text: Roll the dough into 16 balls of about 50g each. Space eight on each tray, leaving at least 5cm between them, and sprinkle each with a little flaky salt if you like.

@@ -21,8 +21,14 @@ ingredients:
     items:
       - { qty: 2, unit: null, item: eggs, key: egg, prep: fried, optional: true }
       - { qty: 1, unit: tbsp, item: chives, prep: finely snipped }
+prep:
+  - text: Peel the potatoes.
+  - text: Coarsely grate the potatoes on a box grater.
+  - text: Grate a pinch of nutmeg, if using.
+  - text: Finely snip the chives.
+    during: 3
 steps:
-  - text: Grate the potatoes on the coarse side of a box grater. Pile them into a clean tea towel, gather it up and twist hard over the sink to wring out as much liquid as you can.
+  - text: Pile the grated potatoes into a clean tea towel, gather it up and twist hard over the sink to wring out as much liquid as you can.
     tip: This is what makes the rösti crisp. Wet potato steams and turns grey and gluey.
   - text: Tip the potato into a bowl and toss with the salt, pepper and nutmeg.
   - text: Heat half the butter with the oil in a 20 cm non-stick frying pan over a medium heat. When the butter foams, add the potato, spread it out and press down lightly into an even cake. Cook without moving it until the underside is deep golden and the edges are crisp.

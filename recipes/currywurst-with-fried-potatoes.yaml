@@ -29,6 +29,12 @@ ingredients:
     items:
       - { qty: 4, unit: null, item: pork sausages, key: sausages }
       - { qty: 1, unit: tsp, item: mild curry powder, key: curry powder, note: for dusting }
+prep:
+  - text: Cut the potatoes into 2 cm chunks.
+  - text: Finely chop the onion.
+    during: 1
+  - text: Measure out the curry powder, paprika, ketchup, passata, vinegar, sugar and Worcestershire sauce for the sauce.
+    during: 2
 steps:
   - text: Put the potatoes in a pan of cold salted water, bring to the boil and simmer until a knife goes in with a little resistance. Drain well and leave to steam dry in the colander.
     timer: { minutes: 6, label: Parboil potatoes }

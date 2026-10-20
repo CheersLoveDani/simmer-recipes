@@ -21,9 +21,13 @@ ingredients:
       - { qty: 85, unit: g, item: demerara sugar }
       - { qty: 50, unit: g, item: rolled oats }
       - { qty: 1, unit: pinch, item: fine salt }
+prep:
+  - text: Peel, quarter and core the apples, then cut them into chunks about 2cm across.
+  - text: Cut the cold butter into cubes and keep it in the fridge until needed.
+  - text: Weigh out the flour, demerara sugar and oats for the topping.
 steps:
   - text: Heat the oven to 190°C (170°C fan). Have ready a baking dish of about 1.5 litres, roughly 20 x 28cm.
-  - text: Peel, quarter and core the apples, then cut them into chunks about 2cm across. Toss them in the baking dish with the brown sugar, lemon juice, cinnamon and 2 tablespoons of water, then spread them out in an even layer.
+  - text: Toss the apple chunks in the baking dish with the brown sugar, lemon juice, cinnamon and 2 tablespoons of water, then spread them out in an even layer.
     tip: Keep the pieces chunky. Bramleys break down a great deal, and thin slices will cook to a purée before the topping is done.
   - text: Put the flour, salt and butter in a large bowl. Rub the butter in with your fingertips until the mixture looks like coarse, uneven breadcrumbs with some larger buttery lumps. Stir in the demerara sugar and the oats.
     tip: Squeeze a few handfuls of the mixture together and then break them up again. Those bigger nuggets are what bake into crunchy clusters.

@@ -31,6 +31,14 @@ ingredients:
       - { qty: 120, unit: g, item: tomato puree }
       - { qty: 400, unit: g, item: long-grain white rice, key: long-grain rice }
       - { qty: 600, unit: ml, item: chicken stock, key: stock }
+prep:
+  - text: Peel the garlic.
+  - text: Roughly chop the red onion.
+  - text: Deseed and roughly chop the red pepper.
+  - text: Remove the stalk from the Scotch bonnet, if using, and deseed it for a gentler heat.
+  - text: Dice the chicken breasts.
+  - text: Measure the curry powder, thyme, ginger and paprika into a small bowl.
+  - text: Weigh out the tomato puree and rice and measure the stock.
 steps:
   - text: Put the tomatoes, garlic, onion, red pepper and the Scotch bonnet, if you are using it, in a food processor. Pulse until everything is finely chopped and saucy, then set aside.
     tip: Leave the Scotch bonnet out for a mild pot, or use half with the seeds removed for a gentler heat.

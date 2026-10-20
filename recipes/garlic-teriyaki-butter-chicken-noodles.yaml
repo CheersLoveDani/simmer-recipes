@@ -22,6 +22,12 @@ ingredients:
       - { qty: 1, unit: tbsp, item: dark soy sauce }
       - { qty: 25, unit: g, item: unsalted butter }
       - { qty: null, unit: null, item: Japanese seven spice (shichimi togarashi), key: shichimi togarashi, note: to serve }
+prep:
+  - text: Boil a kettle for the noodles.
+  - text: Measure out the garlic and ginger.
+    during: 1
+  - text: Measure the teriyaki sauce, dark soy sauce and butter into a small bowl.
+    during: 1
 steps:
   - text: Cook the noodles in boiling water following the packet timing. Drain them well and set aside.
     timer: { minutes: 4, label: Noodles }

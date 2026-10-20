@@ -22,6 +22,10 @@ ingredients:
       - { qty: 2, unit: null, item: eggs, key: egg }
       - { qty: 1, unit: tsp, item: toasted sesame seeds, key: sesame seeds }
       - { qty: 1, unit: null, item: sheet of nori, key: nori, prep: snipped into strips, optional: true }
+prep:
+  - text: Roughly chop the kimchi, saving the juice from the jar.
+  - text: Thinly slice the spring onions, keeping the whites and greens separate.
+  - text: Snip the nori into strips, if using.
 steps:
   - text: Stir the kimchi juice, gochujang and soy sauce together in a small bowl. Break up any clumps in the cold rice with your fingers.
   - text: Heat half the oil in a wok or large frying pan over a high heat. Add the spring onion whites and the chopped kimchi and fry until the kimchi darkens and starts to caramelise.

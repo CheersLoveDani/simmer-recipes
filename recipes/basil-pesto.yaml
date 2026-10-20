@@ -16,6 +16,13 @@ ingredients:
       - { qty: 0.25, unit: tsp, item: flaky sea salt, key: salt, note: plus extra to taste }
       - { qty: 40, unit: g, item: parmesan, prep: finely grated }
       - { qty: 100, unit: ml, item: extra virgin olive oil, key: olive oil, note: "a mild, fruity one" }
+prep:
+  - text: Pick the basil leaves from their stalks and weigh out 60g.
+  - text: Measure out the olive oil.
+  - text: Roughly chop the garlic.
+    during: 1
+  - text: Finely grate the parmesan.
+    during: 1
 steps:
   - text: Toast the pine nuts in a small dry frying pan over a medium-low heat, shaking often, until pale gold. Tip onto a plate straight away and leave to cool completely.
     timer: { minutes: 3, label: Toast pine nuts }

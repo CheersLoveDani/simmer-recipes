@@ -23,6 +23,17 @@ ingredients:
       - { qty: 0.5, unit: null, item: lemon, prep: juiced }
       - { qty: null, unit: null, item: salt, note: to taste }
       - { qty: null, unit: null, item: black pepper, note: to taste }
+prep:
+  - text: Finely chop the onion.
+  - text: Peel the carrots and slice them into thin rounds.
+  - text: Thinly slice the celery.
+  - text: Remove the skin from the chicken thighs.
+  - text: Finely chop the garlic.
+    during: 1
+  - text: Finely chop the parsley.
+    during: 3
+  - text: Juice the half lemon.
+    during: 3
 steps:
   - text: Heat the oil in a large saucepan over a medium heat. Add the onion, carrots and celery with a pinch of salt and cook gently, stirring now and then, until softened but not coloured.
     timer: { minutes: 8, label: Soften vegetables }

@@ -85,6 +85,19 @@
         }
       }
     },
+    "prep": {
+      "description": "Get-ready tasks: chopping, weighing, grating. `during` names the step (from 1) whose waiting time suits the task; leave it out for jobs to do before starting.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text"],
+        "properties": {
+          "text": { "type": "string", "minLength": 5, "maxLength": 200 },
+          "during": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
     "steps": {
       "type": "array",
       "minItems": 1,

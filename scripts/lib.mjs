@@ -124,6 +124,12 @@ export function compileRecipe(id, source, validate, taxonomy) {
     }),
   }));
 
+  for (const [i, task] of (source.prep ?? []).entries()) {
+    if (task.during != null && task.during > source.steps.length) {
+      errors.push(`prep ${i + 1}: "during: ${task.during}" but there are only ${source.steps.length} steps`);
+    }
+  }
+
   if (errors.length) return { recipe: null, errors };
 
   const time = { prep: source.time.prep, cook: source.time.cook, rest: source.time.rest ?? 0 };
@@ -142,6 +148,7 @@ export function compileRecipe(id, source, validate, taxonomy) {
     ...(source.yield ? { yield: source.yield } : {}),
     time,
     ingredients,
+    ...(source.prep?.length ? { prep: source.prep } : {}),
     steps: source.steps,
     equipment: source.equipment ?? [],
     tips: source.tips ?? [],

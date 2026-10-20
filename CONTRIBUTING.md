@@ -34,6 +34,9 @@ ingredients:
       - { qty: null, unit: null, item: black pepper, note: to taste }
       - { qty: 1, unit: tbsp, item: oil, fixed: true }            # does not scale
       - { qty: 1, unit: handful, item: basil, optional: true }
+prep:                 # optional, see "Prep" below
+  - text: Finely grate the garlic.
+    during: 1         # can be done while step 1 cooks
 steps:
   - text: Boil the spaghetti until just shy of al dente.
     timer: { minutes: 9, label: Spaghetti }
@@ -47,6 +50,21 @@ nutrition: { kcal: 640, protein: 21, carbs: 78, fat: 27, fibre: 4 }   # per serv
 cover: { hue: 38, motif: noodles }
 created: 2026-10-09
 ```
+
+### Prep
+
+`prep` is the get-ready list: everything to chop, grate, weigh or open, so
+the cook is not doing it in the middle of a step. The app shows it above the
+method and in cook mode.
+
+- One task per line, starting with a verb: "Finely chop the onion."
+- Add `during: <step number>` when the job fits into a step's waiting time,
+  such as slicing vegetables while pasta boils. The step must give the cook
+  real hands-off time, usually one with a `timer`.
+- Leave `during` out for jobs to do before starting: anything needed in the
+  first step, or that the cook is too busy for later.
+- Once a job is in `prep`, the steps should not repeat it. "Add the onion",
+  not "Chop the onion and add it".
 
 ### Units
 

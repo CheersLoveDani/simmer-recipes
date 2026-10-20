@@ -22,6 +22,11 @@ ingredients:
     items:
       - { qty: null, unit: null, item: strawberry jam, note: to serve, optional: true }
       - { qty: null, unit: null, item: clotted cream, note: to serve, optional: true }
+prep:
+  - text: Cut the cold butter into cubes and keep it in the fridge until needed.
+  - text: Weigh out the flour, baking powder, salt and sugar.
+  - text: Measure the buttermilk and keep it cold in the fridge.
+  - text: Beat the egg for the glaze.
 steps:
   - text: Heat the oven to 220°C (200°C fan) and put a large baking tray inside to heat up.
     tip: A hot tray gives the scones an immediate burst of heat from below, which helps them rise straight up.
