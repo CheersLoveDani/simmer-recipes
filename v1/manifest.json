@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "revision": "7149d2994a566998",
-  "generatedAt": "2026-10-24T14:47:00.646Z",
+  "revision": "0ec9eafb1c775c2d",
+  "generatedAt": "2026-10-24T15:02:18.954Z",
   "bundle": {
-    "path": "recipes.81c7347ee399.json",
-    "hash": "81c7347ee399",
-    "bytes": 79851
+    "path": "recipes.5db067001bdc.json",
+    "hash": "5db067001bdc",
+    "bytes": 79688
   },
   "recipes": [
     {
@@ -30,8 +30,8 @@
     },
     {
       "id": "cheesy-frankfurter-pasta",
-      "hash": "f33051d345d9",
-      "path": "r/cheesy-frankfurter-pasta.f33051d345d9.json"
+      "hash": "b8482250ca14",
+      "path": "r/cheesy-frankfurter-pasta.b8482250ca14.json"
     },
     {
       "id": "chicken-noodle-soup",
