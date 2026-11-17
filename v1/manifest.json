@@ -1,107 +1,107 @@
 {
   "schemaVersion": 1,
-  "revision": "0ec9eafb1c775c2d",
-  "generatedAt": "2026-10-24T15:02:18.954Z",
+  "revision": "39d1eb660970ae70",
+  "generatedAt": "2026-11-17T16:59:36.658Z",
   "bundle": {
-    "path": "recipes.5db067001bdc.json",
-    "hash": "5db067001bdc",
-    "bytes": 79688
+    "path": "recipes.3c1fa7dee804.json",
+    "hash": "3c1fa7dee804",
+    "bytes": 95142
   },
   "recipes": [
     {
       "id": "apple-crumble",
-      "hash": "c59a98d90242",
-      "path": "r/apple-crumble.c59a98d90242.json"
+      "hash": "597e51b2b7dc",
+      "path": "r/apple-crumble.597e51b2b7dc.json"
     },
     {
       "id": "basil-pesto",
-      "hash": "563c171bb8a5",
-      "path": "r/basil-pesto.563c171bb8a5.json"
+      "hash": "0dd2c4d8823e",
+      "path": "r/basil-pesto.0dd2c4d8823e.json"
     },
     {
       "id": "brigadeiros",
-      "hash": "0276bb51df36",
-      "path": "r/brigadeiros.0276bb51df36.json"
+      "hash": "fce9cc033386",
+      "path": "r/brigadeiros.fce9cc033386.json"
     },
     {
       "id": "buttermilk-scones",
-      "hash": "39d5ad925d12",
-      "path": "r/buttermilk-scones.39d5ad925d12.json"
+      "hash": "325e3bd8924f",
+      "path": "r/buttermilk-scones.325e3bd8924f.json"
     },
     {
       "id": "cheesy-frankfurter-pasta",
-      "hash": "b8482250ca14",
-      "path": "r/cheesy-frankfurter-pasta.b8482250ca14.json"
+      "hash": "3d3294216346",
+      "path": "r/cheesy-frankfurter-pasta.3d3294216346.json"
     },
     {
       "id": "chicken-noodle-soup",
-      "hash": "09968179813f",
-      "path": "r/chicken-noodle-soup.09968179813f.json"
+      "hash": "3dd312124b5e",
+      "path": "r/chicken-noodle-soup.3dd312124b5e.json"
     },
     {
       "id": "chocolate-chip-cookies",
-      "hash": "db4716061b89",
-      "path": "r/chocolate-chip-cookies.db4716061b89.json"
+      "hash": "a708eb141851",
+      "path": "r/chocolate-chip-cookies.a708eb141851.json"
     },
     {
       "id": "crispy-roast-potatoes",
-      "hash": "69e8dfe86fc4",
-      "path": "r/crispy-roast-potatoes.69e8dfe86fc4.json"
+      "hash": "db643333af9f",
+      "path": "r/crispy-roast-potatoes.db643333af9f.json"
     },
     {
       "id": "currywurst-with-fried-potatoes",
-      "hash": "492af8fd4773",
-      "path": "r/currywurst-with-fried-potatoes.492af8fd4773.json"
+      "hash": "e3b319f53201",
+      "path": "r/currywurst-with-fried-potatoes.e3b319f53201.json"
     },
     {
       "id": "dark-chocolate-mousse",
-      "hash": "83333eb912cb",
-      "path": "r/dark-chocolate-mousse.83333eb912cb.json"
+      "hash": "e8f07f0887ac",
+      "path": "r/dark-chocolate-mousse.e8f07f0887ac.json"
     },
     {
       "id": "fudgy-brownies",
-      "hash": "e220a4a3c86d",
-      "path": "r/fudgy-brownies.e220a4a3c86d.json"
+      "hash": "b7b0b3ed3517",
+      "path": "r/fudgy-brownies.b7b0b3ed3517.json"
     },
     {
       "id": "garlic-teriyaki-butter-chicken-noodles",
-      "hash": "444f6e33536b",
-      "path": "r/garlic-teriyaki-butter-chicken-noodles.444f6e33536b.json"
+      "hash": "2bfb3892b253",
+      "path": "r/garlic-teriyaki-butter-chicken-noodles.2bfb3892b253.json"
     },
     {
       "id": "ginger-pork-noodles",
-      "hash": "9fd40850153e",
-      "path": "r/ginger-pork-noodles.9fd40850153e.json"
+      "hash": "3fb55999cd16",
+      "path": "r/ginger-pork-noodles.3fb55999cd16.json"
     },
     {
       "id": "guacamole",
-      "hash": "167d1c6c99e6",
-      "path": "r/guacamole.167d1c6c99e6.json"
+      "hash": "b66114e6ffde",
+      "path": "r/guacamole.b66114e6ffde.json"
     },
     {
       "id": "hummus",
-      "hash": "337952c76bbc",
-      "path": "r/hummus.337952c76bbc.json"
+      "hash": "456f3070ba03",
+      "path": "r/hummus.456f3070ba03.json"
     },
     {
       "id": "jollof-rice",
-      "hash": "93f6c23b995c",
-      "path": "r/jollof-rice.93f6c23b995c.json"
+      "hash": "244c819fe610",
+      "path": "r/jollof-rice.244c819fe610.json"
     },
     {
       "id": "kimchi-fried-rice-with-a-fried-egg",
-      "hash": "c323330c43a8",
-      "path": "r/kimchi-fried-rice-with-a-fried-egg.c323330c43a8.json"
+      "hash": "0636b776a9b3",
+      "path": "r/kimchi-fried-rice-with-a-fried-egg.0636b776a9b3.json"
     },
     {
       "id": "potato-rosti",
-      "hash": "b33a14edb875",
-      "path": "r/potato-rosti.b33a14edb875.json"
+      "hash": "30118d6eb610",
+      "path": "r/potato-rosti.30118d6eb610.json"
     },
     {
       "id": "thai-green-chicken-curry",
-      "hash": "5810e2bbec11",
-      "path": "r/thai-green-chicken-curry.5810e2bbec11.json"
+      "hash": "494248087e91",
+      "path": "r/thai-green-chicken-curry.494248087e91.json"
     }
   ],
   "images": [
