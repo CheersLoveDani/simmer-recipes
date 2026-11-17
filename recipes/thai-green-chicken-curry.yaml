@@ -61,7 +61,33 @@ substitutions:
   - { for: chicken thighs, use: raw king prawns, note: "add them with the vegetables, they need only 3 to 4 minutes" }
   - { for: courgette, use: aubergine, note: "cut into 2cm cubes and add with the chicken" }
   - { for: fish sauce, use: light soy sauce, note: the dish is then no longer gluten-free }
-storage: Keeps for 3 days in the fridge. Reheat gently until piping hot. Cool leftover rice quickly, refrigerate within an hour and eat within a day.
+storage: The curry keeps for 2 days in the fridge or 3 months in the freezer. Reheat gently until piping hot. Cool leftover rice quickly, refrigerate within an hour and eat within a day.
 nutrition: { kcal: 680, protein: 36, carbs: 68, fat: 28, fibre: 4 }
+mealPrep:
+  rating: great
+  fridgeDays: 2
+  freezerMonths: 3
+  portion: Divide the curry between 4 containers and pack the rice separately, so each can be reheated properly.
+  freeze: Cool and freeze the curry in portions. Freeze rice separately within an hour of cooking, for up to a month.
+  defrost: Move a portion to the fridge the night before and eat it within 24 hours. Never defrost on the worktop.
+  reheat:
+    - method: hob
+      from: chilled
+      minutes: 6
+      text: Warm gently in a pan, stirring, until bubbling and steaming hot.
+    - method: microwave
+      from: chilled
+      minutes: 4
+      text: Covered, on full for 3 to 4 minutes, stirring halfway.
+    - method: microwave
+      from: frozen
+      minutes: 8
+      text: Defrost setting for 4 minutes, stir, then full power for 3 to 4 minutes until bubbling.
+  serveFresh:
+    - fresh basil
+    - lime wedges
+  tips:
+    - Coconut sauces can look split after freezing; a good stir as it heats brings it back.
+    - Reheat each portion once only, until steaming hot all the way through.
 cover: { hue: 95, motif: bowl }
 created: 2026-10-09

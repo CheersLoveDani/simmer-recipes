@@ -56,7 +56,31 @@ tips:
 substitutions:
   - { for: groundnut oil, use: vegetable oil, note: also makes it safe for anyone avoiding peanuts }
   - { for: chicken breasts, use: boneless chicken thighs }
-storage: Keeps for 3 days in the fridge. Cool quickly, and reheat until piping hot with a splash of water.
+storage: Cool quickly and keep in the fridge for no more than a day, or freeze. Reheat once, until piping hot, with a splash of water.
+nutrition: { kcal: 490, protein: 23, carbs: 60, fat: 15, fibre: 3 }
+mealPrep:
+  rating: great
+  fridgeDays: 1
+  freezerMonths: 1
+  portion: Spread the rice out on a tray to cool fast, then divide into 6 lidded containers and get it into the fridge within an hour.
+  freeze: Freeze cooled portions in flat bags or boxes as soon as they are cold, within an hour of cooking.
+  defrost: Move a portion to the fridge the night before and eat it within 24 hours. Never defrost on the worktop.
+  reheat:
+    - method: microwave
+      from: chilled
+      minutes: 4
+      text: Sprinkle with a little water, cover and heat on full for 3 to 4 minutes, stirring halfway, until steaming hot throughout.
+    - method: hob
+      from: chilled
+      minutes: 6
+      text: In a covered pan with a splash of water over a medium heat, stirring, until piping hot.
+    - method: microwave
+      from: frozen
+      minutes: 6
+      text: Covered, on full for 5 to 6 minutes, breaking it up and stirring every 2 minutes, until piping hot.
+  tips:
+    - Cooked rice must be cooled quickly and kept no longer than a day in the fridge, because of spores that survive cooking.
+    - Reheat each portion once only, until steaming hot all the way through.
 cover: { hue: 14, motif: grain }
 author: "Adapted from Overwatch: The Official Cookbook"
 created: 2026-10-09

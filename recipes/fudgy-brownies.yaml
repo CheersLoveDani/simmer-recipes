@@ -50,5 +50,21 @@ substitutions:
   - { for: caster sugar, use: half caster and half light brown sugar, note: for a chewier brownie with a duller top }
 storage: Keep in an airtight tin for up to 5 days. Freeze, wrapped, for up to 3 months.
 nutrition: { kcal: 240, protein: 3, carbs: 25, fat: 14, fibre: 2 }
+mealPrep:
+  rating: great
+  roomDays: 5
+  fridgeDays: 0
+  freezerMonths: 3
+  portion: Cool completely in the tin, then cut into 16 and wrap pairs in baking paper.
+  freeze: Pack the wrapped squares into a labelled box or bag. They are good eaten almost straight from frozen.
+  defrost: Thaw at room temperature for 30 minutes.
+  reheat:
+    - method: none
+      from: frozen
+      text: Leave at room temperature for 30 minutes, or eat a little chilled for an extra-fudgy bite.
+    - method: microwave
+      from: chilled
+      minutes: 0.25
+      text: Warm a square for 10 to 15 seconds to serve with ice cream.
 cover: { hue: 18, motif: slice }
 created: 2026-10-09

@@ -121,6 +121,43 @@ test('leaves prep out of the feed when a recipe has none', async () => {
   assert.equal('prep' in recipes[0], false);
 });
 
+const mealPrep = () => ({
+  rating: 'good',
+  fridgeDays: 1,
+  freezerMonths: 1,
+  portion: 'Wrap each slice in baking paper.',
+  freeze: 'Freeze the wrapped slices in a bag.',
+  reheat: [
+    { method: 'toaster', from: 'chilled', minutes: 2, text: 'Toast until crisp again.' },
+    { method: 'oven', from: 'frozen', minutes: 8, text: 'Bake at 200°C until hot through.' },
+  ],
+  serveFresh: ['olive oil'],
+});
+
+test('passes meal prep through to the feed', async () => {
+  const recipe = { ...base(), mealPrep: mealPrep() };
+  await writeRecipe('garlic-toast', recipe);
+  const { recipes, errors } = await loadRecipes(root);
+  assert.deepEqual(errors, []);
+  assert.deepEqual(recipes[0].mealPrep, recipe.mealPrep);
+});
+
+test('meal prep must agree with itself', async () => {
+  const cases = [
+    [{ freeze: undefined }, /say how to freeze it/],
+    [{ freezerMonths: 0 }, /freezerMonths is 0/],
+    [{ freezerMonths: 0, freeze: undefined, fridgeDays: 0, reheat: [{ method: 'none', from: 'chilled', text: 'Eat it as it is.' }] }, /must be rated "fresh"/],
+    [{ rating: 'great', freezerMonths: 0, freeze: undefined, reheat: [{ method: 'none', from: 'chilled', text: 'Eat it as it is.' }] }, /"great" needs it to freeze/],
+  ];
+  for (const [patch, message] of cases) {
+    const prep = { ...mealPrep(), ...patch };
+    if (prep.freeze === undefined) delete prep.freeze;
+    await writeRecipe('garlic-toast', { ...base(), mealPrep: prep });
+    const { errors } = await loadRecipes(root);
+    assert.match(errors.map((e) => e.message).join('\n'), message);
+  }
+});
+
 test('reports schema violations with the file name', async () => {
   const recipe = base();
   recipe.course = 'elevenses';

@@ -59,5 +59,22 @@ substitutions:
   - { for: egg noodles, use: flat rice noodles, note: soak or cook following the packet instructions }
 storage: Keeps for 2 days in the fridge. Reheat in a hot pan with a splash of water until piping hot.
 nutrition: { kcal: 680, protein: 34, carbs: 62, fat: 31, fibre: 5 }
+mealPrep:
+  rating: good
+  fridgeDays: 2
+  freezerMonths: 0
+  portion: Divide between 2 lidded containers, keeping any fresh toppings aside.
+  reheat:
+    - method: hob
+      from: chilled
+      minutes: 4
+      text: Toss in a hot pan or wok with a splash of water until steaming hot.
+    - method: microwave
+      from: chilled
+      minutes: 3
+      text: Add a splash of water, cover and heat on full for 2 to 3 minutes, stirring halfway.
+  tips:
+    - Noodles soften after freezing, so this one is for the fridge only.
+    - Reheat each portion once only, until steaming hot all the way through.
 cover: { hue: 28, motif: noodles }
 created: 2026-10-09

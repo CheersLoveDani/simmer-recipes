@@ -44,5 +44,19 @@ substitutions:
   - { for: gochujang, use: 1 tsp chilli flakes and 1 tsp honey }
   - { for: jasmine rice, use: any cooked short- or long-grain rice }
 storage: Best eaten straight away. Leftover rice keeps for 1 day in the fridge; reheat until piping hot and fry fresh eggs.
+nutrition: { kcal: 545, protein: 13, carbs: 62, fat: 25, fibre: 3 }
+mealPrep:
+  rating: fresh
+  fridgeDays: 1
+  freezerMonths: 0
+  portion: Best eaten straight away. Leftover rice goes into a shallow lidded box and into the fridge within an hour.
+  reheat:
+    - method: hob
+      from: chilled
+      minutes: 4
+      text: Fry in a hot pan until piping hot and crisp in places, then top with a freshly fried egg.
+  serveFresh:
+    - fried egg
+    - nori
 cover: { hue: 330, motif: bowl }
 created: 2026-10-09

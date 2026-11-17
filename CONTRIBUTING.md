@@ -66,6 +66,36 @@ method and in cook mode.
 - Once a job is in `prep`, the steps should not repeat it. "Add the onion",
   not "Chop the onion and add it".
 
+### Meal prep
+
+`mealPrep` tells batch cooks whether a dish is worth making ahead, and how to
+portion, freeze and reheat it. The app shows it on the recipe, offers a
+"meal prep" way of cooking, and tracks the portions in the person's fridge and
+freezer with use-by dates taken from these numbers.
+
+```yaml
+mealPrep:
+  rating: great          # great: keeps and reheats well. good: fine a day or two ahead. fresh: eat it now
+  fridgeDays: 2          # 0 if it should not be kept
+  roomDays: 3            # optional, for bakes kept in a tin
+  freezerMonths: 2       # 0 if it does not freeze well
+  portion: Cut into 4 and lift into lidded containers, about 450 g each.
+  freeze: Cool, lid, label with the date and freeze within 2 hours.   # needed when freezerMonths > 0
+  defrost: Move to the fridge the night before; eat within 24 hours.
+  reheat:
+    - { method: microwave, from: chilled, minutes: 4, text: "Cover and heat on full, stirring halfway, until steaming hot." }
+    - { method: oven, from: frozen, minutes: 50, text: "Covered with foil at 180°C (160°C fan) until hot in the centre." }
+  serveFresh: [spring onions]   # keep back and add on the day
+  tips: []
+```
+
+- `method` is `microwave oven hob air-fryer grill toaster none`; `from` is
+  `chilled` or `frozen`. Leave out reheating from frozen when it does not freeze.
+- Follow UK Food Standards Agency advice: cool and chill within 2 hours,
+  leftovers keep 2 days in the fridge, cooked rice only 1, defrost in the
+  fridge, and reheat once until steaming hot all the way through.
+- Give `nutrition` with every recipe too: estimated per serving.
+
 ### Units
 
 `g kg ml l tsp tbsp cup oz lb pinch clove sprig slice can bunch stick leaf handful piece`,

@@ -41,5 +41,16 @@ substitutions:
   - { for: caster sugar, use: icing sugar }
 storage: Keep covered in the fridge and eat within 2 days. Not suitable for freezing.
 nutrition: { kcal: 375, protein: 10, carbs: 19, fat: 27, fibre: 4 }
+mealPrep:
+  rating: good
+  fridgeDays: 2
+  freezerMonths: 0
+  portion: Spoon straight into 4 small glasses or pots before chilling, so it sets in portions.
+  reheat:
+    - method: none
+      from: chilled
+      text: Serve cold from the fridge, or leave out for 10 minutes for a softer texture.
+  tips:
+    - "A make-ahead pudding: it needs at least 2 hours to set anyway. Cover each pot so it does not pick up fridge smells."
 cover: { hue: 14, motif: cup }
 created: 2026-10-09

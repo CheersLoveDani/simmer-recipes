@@ -42,5 +42,21 @@ tips:
 substitutions:
   - { for: desiccated coconut, use: chocolate sprinkles, note: the traditional coating }
 storage: Keep in an airtight container for 3 days at cool room temperature, or a week in the fridge.
+nutrition: { kcal: 190, protein: 4, carbs: 24, fat: 8, fibre: 2 }
+mealPrep:
+  rating: good
+  fridgeDays: 7
+  roomDays: 3
+  freezerMonths: 3
+  portion: Roll and coat them all, then pack in single layers in an airtight box, with baking paper between layers.
+  freeze: Open-freeze on a tray until firm, then move to a labelled box or bag.
+  defrost: Thaw in the fridge for a few hours, then give them 20 minutes at room temperature so they turn soft and fudgy again.
+  reheat:
+    - method: none
+      from: chilled
+      text: "Serve at room temperature: take them out of the fridge 20 minutes before eating."
+    - method: none
+      from: frozen
+      text: Thaw in the fridge for 2 to 3 hours, then bring to room temperature.
 cover: { hue: 100, motif: berry }
 created: 2026-10-09

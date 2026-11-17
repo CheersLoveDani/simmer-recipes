@@ -59,7 +59,43 @@ substitutions:
   - { for: cooked Cajun chicken breasts, use: leftover roast chicken, note: toss with 2 tsp Cajun seasoning }
   - { for: cheddar, use: mozzarella, note: stretchier and milder }
   - { for: pasta sauce, use: passata, note: "add a pinch of salt, sugar and dried herbs" }
-storage: Keeps for 2 days in the fridge. Reheat covered with foil at 180°C for 20 minutes, or in the microwave with a splash of water.
+storage: Keeps for 2 days in the fridge or 2 months in the freezer. See meal prep below for portioning and reheating.
 nutrition: { kcal: 830, protein: 50, carbs: 82, fat: 33, fibre: 6 }
+mealPrep:
+  rating: great
+  fridgeDays: 2
+  freezerMonths: 2
+  portion: Leave the bake to stand for 10 minutes so it firms up, then cut it into 4 and lift each portion into a lidded container or foil tray that can go in the microwave or oven, about 450 g each. Or keep the whole dish together for a family meal.
+  freeze: Cool uncovered, then lid, label with the name and date and freeze within 2 hours of cooking. Lay portions flat so they chill quickly and stack neatly.
+  defrost: Move a portion to the fridge the night before and eat it within 24 hours. Never defrost on the worktop.
+  reheat:
+    - method: microwave
+      from: chilled
+      minutes: 4
+      text: Add a splash of water, cover loosely and heat on full for 3 to 4 minutes, stirring halfway, until steaming hot in the middle.
+    - method: oven
+      from: chilled
+      minutes: 25
+      text: Cover with foil and bake at 180°C (160°C fan) for 20 minutes, then uncover for 5 minutes to crisp the cheese.
+    - method: air-fryer
+      from: chilled
+      minutes: 12
+      text: In a small foil tray covered with foil, at 160°C for 8 to 10 minutes, then uncovered for 2 to 3 minutes.
+    - method: oven
+      from: frozen
+      minutes: 50
+      text: Cover with foil and bake at 180°C (160°C fan) for 45 to 50 minutes, uncovering for the last 10, until hot in the centre.
+    - method: microwave
+      from: frozen
+      minutes: 10
+      text: Defrost setting for 5 to 6 minutes, stir, then full power for 3 to 4 minutes with a splash of water, until steaming hot.
+  serveFresh:
+    - spring onions
+    - gherkins
+  tips:
+    - "Cooking only to freeze? Stop after step 7: cool the unbaked bake, cover and freeze. Bake from frozen, covered, at 180°C (160°C fan) for about an hour, uncovering for the last 15 minutes."
+    - The pasta is cooked 2 minutes short, so it keeps its bite when reheated. It drinks up sauce as it sits, so add a spoonful of water before reheating.
+    - Fridge time counts from the day you cook it. If the chicken or frankfurters have an earlier use-by date, go by that.
+    - Reheat each portion once only, until steaming hot all the way through.
 cover: { hue: 14, motif: pot }
 created: 2026-10-20

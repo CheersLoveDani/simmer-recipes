@@ -42,5 +42,27 @@ substitutions:
   - { for: rosemary, use: thyme sprigs }
 storage: Best straight from the oven. Leftovers keep in the fridge for 2 days; reheat on a tray at 220°C (200°C fan) for 10–15 minutes to crisp up again.
 nutrition: { kcal: 285, protein: 5, carbs: 43, fat: 10, fibre: 4 }
+mealPrep:
+  rating: good
+  fridgeDays: 2
+  freezerMonths: 3
+  portion: Spread leftovers in a single layer in a shallow lidded box so they cool fast.
+  freeze: "Best frozen before roasting: parboil, rough up and cool the potatoes, toss in the fat, then open-freeze on a tray and bag them."
+  defrost: Roast straight from frozen; do not defrost.
+  reheat:
+    - method: oven
+      from: chilled
+      minutes: 15
+      text: On a hot tray at 220°C (200°C fan) for 10 to 15 minutes, until crisp again.
+    - method: air-fryer
+      from: chilled
+      minutes: 8
+      text: At 200°C for 6 to 8 minutes, shaking halfway.
+    - method: oven
+      from: frozen
+      minutes: 60
+      text: Roast the frozen parboiled potatoes in hot fat at 200°C (180°C fan) for 50 to 60 minutes, turning once.
+  tips:
+    - Prepping for a roast dinner? Freezing them parboiled saves 20 minutes on the day.
 cover: { hue: 42, motif: flame }
 created: 2026-10-09

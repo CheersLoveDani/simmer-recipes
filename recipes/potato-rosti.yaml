@@ -42,5 +42,23 @@ tips:
 substitutions:
   - { for: butter, use: olive oil, note: for a dairy-free rösti }
 storage: Best eaten straight from the pan. Leftovers reheat in a dry frying pan until crisp again.
+nutrition: { kcal: 440, protein: 6, carbs: 51, fat: 24, fibre: 4 }
+mealPrep:
+  rating: fresh
+  fridgeDays: 2
+  freezerMonths: 0
+  portion: Best straight from the pan. Cool any leftovers on a rack so they stay crisp, then box and chill.
+  reheat:
+    - method: hob
+      from: chilled
+      minutes: 6
+      text: In a dry frying pan over a medium heat for 3 minutes a side, until crisp again.
+    - method: air-fryer
+      from: chilled
+      minutes: 5
+      text: At 200°C for 4 to 5 minutes.
+  serveFresh:
+    - fried eggs
+    - chives
 cover: { hue: 48, motif: slice }
 created: 2026-10-09

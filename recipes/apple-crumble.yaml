@@ -46,5 +46,29 @@ substitutions:
   - { for: ground cinnamon, use: "a handful of blackberries added to the apples" }
 storage: Cover and keep in the fridge for up to 3 days. Reheat at 180°C for 15–20 minutes to crisp the top again. The baked crumble freezes for up to 3 months.
 nutrition: { kcal: 430, protein: 4, carbs: 67, fat: 16, fibre: 4 }
+mealPrep:
+  rating: great
+  fridgeDays: 3
+  freezerMonths: 3
+  portion: Cool completely, then spoon or cut into 6 portions and pack into small lidded ovenproof dishes or containers. A whole crumble also freezes well in its dish.
+  freeze: Wrap well or lid, label and freeze once cold. Freezing the topping and fruit separately, unbaked, keeps the crumble crispest.
+  defrost: Defrost overnight in the fridge, or reheat straight from frozen in the oven.
+  reheat:
+    - method: oven
+      from: chilled
+      minutes: 20
+      text: Uncovered at 180°C (160°C fan) for 15 to 20 minutes, until bubbling at the edges and crisp on top.
+    - method: microwave
+      from: chilled
+      minutes: 2
+      text: On full for 1 to 2 minutes per portion. Quick, but the topping softens.
+    - method: oven
+      from: frozen
+      minutes: 40
+      text: Covered with foil at 180°C (160°C fan) for 30 minutes, then uncovered for 10, until piping hot in the centre.
+  serveFresh:
+    - custard or cream
+  tips:
+    - Unbaked crumble topping freezes for 3 months and can be scattered over fruit straight from the freezer.
 cover: { hue: 34, motif: bowl }
 created: 2026-10-09

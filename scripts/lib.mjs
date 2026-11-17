@@ -130,9 +130,24 @@ export function compileRecipe(id, source, validate, taxonomy) {
     }
   }
 
+  const mealPrep = source.mealPrep;
+  if (mealPrep) {
+    const frozen = mealPrep.reheat.filter((r) => r.from === 'frozen');
+    if (mealPrep.freezerMonths > 0 && !mealPrep.freeze) errors.push('mealPrep: say how to freeze it ("freeze") when freezerMonths is set');
+    if (mealPrep.freezerMonths === 0 && (mealPrep.freeze || mealPrep.defrost || frozen.length)) {
+      errors.push('mealPrep: freezerMonths is 0, so leave out freeze, defrost and reheating from frozen');
+    }
+    if (mealPrep.fridgeDays === 0 && !mealPrep.roomDays && mealPrep.freezerMonths === 0 && mealPrep.rating !== 'fresh') {
+      errors.push('mealPrep: a dish that keeps nowhere must be rated "fresh"');
+    }
+    if (mealPrep.rating === 'great' && mealPrep.freezerMonths === 0 && (mealPrep.fridgeDays ?? 0) < 3 && (mealPrep.roomDays ?? 0) < 3) {
+      errors.push('mealPrep: "great" needs it to freeze, or keep at least 3 days');
+    }
+  }
+
   if (errors.length) return { recipe: null, errors };
 
-  const time = { prep: source.time.prep, cook: source.time.cook, rest: source.time.rest ?? 0 };
+  const time ={ prep: source.time.prep, cook: source.time.cook, rest: source.time.rest ?? 0 };
   time.total = time.prep + time.cook + time.rest;
 
   const body = {
@@ -155,6 +170,7 @@ export function compileRecipe(id, source, validate, taxonomy) {
     substitutions: source.substitutions ?? [],
     ...(source.storage ? { storage: source.storage } : {}),
     ...(source.nutrition ? { nutrition: source.nutrition } : {}),
+    ...(mealPrep ? { mealPrep } : {}),
     cover: source.cover,
     ...(source.theme ? { theme: source.theme } : {}),
     author: source.author ?? 'Simmer',

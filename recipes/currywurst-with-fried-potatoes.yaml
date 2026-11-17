@@ -55,5 +55,31 @@ substitutions:
   - { for: pork sausages, use: vegetarian sausages }
   - { for: fried potatoes, use: a crusty bread roll }
 storage: The sauce keeps for 5 days in the fridge and is better the next day. Reheat gently.
+nutrition: { kcal: 870, protein: 25, carbs: 85, fat: 48, fibre: 7 }
+mealPrep:
+  rating: good
+  fridgeDays: 2
+  freezerMonths: 3
+  portion: Make the sauce ahead and keep it in 2 lidded pots. The sausages keep for 2 days cooked; the potatoes are best fried fresh.
+  freeze: Freeze the cooled curry sauce in portions. Cooked sausages freeze too, wrapped individually.
+  defrost: Move a portion to the fridge the night before and eat it within 24 hours. Never defrost on the worktop.
+  reheat:
+    - method: hob
+      from: chilled
+      minutes: 5
+      text: Warm the sauce in a small pan, stirring, until bubbling.
+    - method: air-fryer
+      from: chilled
+      minutes: 6
+      text: Reheat cooked sausages at 180°C for 5 to 6 minutes until sizzling and hot through.
+    - method: microwave
+      from: frozen
+      minutes: 4
+      text: Defrost the sauce on low, then heat on full until bubbling, stirring once.
+  serveFresh:
+    - fried potatoes
+    - curry powder for dusting
+  tips:
+    - The sauce alone keeps 5 days in the fridge and is better on day two.
 cover: { hue: 18, motif: flame }
 created: 2026-10-09

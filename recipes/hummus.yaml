@@ -54,5 +54,19 @@ substitutions:
   - { for: paprika, use: sumac or za'atar }
 storage: Keeps in a sealed container in the fridge for up to 4 days. Stir in a splash of water to loosen and bring to room temperature before serving.
 nutrition: { kcal: 175, protein: 7, carbs: 11, fat: 11, fibre: 4 }
+mealPrep:
+  rating: great
+  fridgeDays: 4
+  freezerMonths: 3
+  portion: Spoon into small lidded pots, about 4 tablespoons each, for lunchboxes and snacks.
+  freeze: Freeze in small pots with a thin layer of olive oil on top, leaving room to expand.
+  defrost: "Thaw in the fridge overnight and stir well: it may look grainy until beaten."
+  reheat:
+    - method: none
+      from: chilled
+      text: Stir in a splash of water and bring to room temperature before serving.
+    - method: none
+      from: frozen
+      text: Thaw overnight in the fridge, then beat with a spoon and a drop of water or lemon.
 cover: { hue: 45, motif: bowl }
 created: 2026-10-09

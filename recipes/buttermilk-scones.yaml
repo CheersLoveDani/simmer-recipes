@@ -49,5 +49,27 @@ substitutions:
   - { for: caster sugar, use: 75g sultanas as well as the sugar, note: stirred in before the buttermilk for fruit scones }
 storage: Best eaten on the day. Freeze once cooled for up to 3 months, then defrost and warm through in the oven.
 nutrition: { kcal: 265, protein: 6, carbs: 38, fat: 10, fibre: 1.5 }
+mealPrep:
+  rating: great
+  roomDays: 2
+  fridgeDays: 0
+  freezerMonths: 3
+  portion: Cool on a rack, then bag them up in twos or fours so you only take out what you need.
+  freeze: Freeze once completely cold, in a labelled freezer bag with the air pressed out. Unbaked cut scones freeze well too.
+  defrost: Thaw at room temperature for an hour, or warm straight from the freezer.
+  reheat:
+    - method: oven
+      from: chilled
+      minutes: 5
+      text: Warm at 180°C (160°C fan) for 5 minutes to bring back the crust.
+    - method: oven
+      from: frozen
+      minutes: 12
+      text: At 160°C (140°C fan) for 10 to 12 minutes, until warm through.
+  serveFresh:
+    - jam
+    - clotted cream
+  tips:
+    - Bake unbaked frozen scones straight from the freezer, adding 3 to 5 minutes to the time.
 cover: { hue: 44, motif: grain }
 created: 2026-10-09

@@ -57,5 +57,22 @@ substitutions:
   - { for: light brown sugar, use: dark brown sugar, note: for a stronger treacle flavour and a softer cookie }
 storage: Keep in an airtight tin for up to 5 days. Freeze unbaked dough balls for up to 3 months.
 nutrition: { kcal: 240, protein: 3, carbs: 29, fat: 12, fibre: 1.5 }
+mealPrep:
+  rating: great
+  roomDays: 5
+  fridgeDays: 0
+  freezerMonths: 3
+  portion: Freeze the dough as balls so you can bake two or ten at a time. Baked cookies keep in an airtight tin.
+  freeze: Roll the dough into balls, open-freeze on a lined tray until hard, then bag and label them.
+  defrost: "No need to defrost the dough: bake straight from the freezer."
+  reheat:
+    - method: oven
+      from: frozen
+      minutes: 14
+      text: Bake the frozen dough balls as the recipe says, adding 1 to 2 minutes.
+    - method: microwave
+      from: chilled
+      minutes: 0.25
+      text: Warm a baked cookie for 10 to 15 seconds for a melting middle.
 cover: { hue: 28, motif: grain }
 created: 2026-10-09

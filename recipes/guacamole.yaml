@@ -36,5 +36,14 @@ substitutions:
   - { for: green chilli, use: a pinch of chilli flakes, note: if you have no fresh chilli }
 storage: Best within an hour of making. To hold it for up to a day, press cling film directly onto the surface so no air reaches it and keep in the fridge; scrape off any browned top layer before serving.
 nutrition: { kcal: 185, protein: 2, carbs: 3, fat: 18, fibre: 6 }
+mealPrep:
+  rating: fresh
+  fridgeDays: 1
+  freezerMonths: 0
+  portion: Best made just before eating. To keep some, press cling film onto the surface and chill.
+  reheat:
+    - method: none
+      from: chilled
+      text: Scrape off any browned top layer and stir before serving.
 cover: { hue: 95, motif: bowl }
 created: 2026-10-09

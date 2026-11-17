@@ -51,7 +51,32 @@ tips:
 substitutions:
   - { for: bone-in chicken thighs, use: 300 g leftover roast chicken, note: "add with the noodles and simmer the broth for only 15 minutes" }
   - { for: egg noodles, use: broken spaghetti or small soup pasta, note: "allow a few minutes longer" }
-storage: Keeps for 3 days in the fridge, ideally with noodles stored separately. Freeze without noodles for up to 3 months and reheat until piping hot.
+storage: Keeps for 2 days in the fridge, ideally with the noodles stored separately. Freeze without noodles for up to 3 months and reheat until piping hot.
 nutrition: { kcal: 330, protein: 30, carbs: 28, fat: 10, fibre: 3 }
+mealPrep:
+  rating: great
+  fridgeDays: 2
+  freezerMonths: 3
+  portion: Ladle the soup into 4 lidded containers, leaving the noodles out. Keep cooked noodles in a separate box, or cook fresh ones on the day.
+  freeze: Cool quickly (stand the pan in cold water), then freeze in portions without the noodles, leaving 2 cm at the top for the soup to expand.
+  defrost: Move a portion to the fridge the night before and eat it within 24 hours. Never defrost on the worktop.
+  reheat:
+    - method: hob
+      from: chilled
+      minutes: 8
+      text: Bring to the boil in a pan, add the noodles and simmer until they are hot through and the soup is steaming.
+    - method: microwave
+      from: chilled
+      minutes: 4
+      text: Covered, on full for 3 to 4 minutes, stirring halfway, until piping hot.
+    - method: hob
+      from: frozen
+      minutes: 15
+      text: Warm gently from frozen with a lid on, stirring as it thaws, then boil and add the noodles.
+  serveFresh:
+    - noodles
+    - fresh herbs
+  tips:
+    - Reheat each portion once only, until steaming hot all the way through.
 cover: { hue: 48, motif: noodles }
 created: 2026-10-09
