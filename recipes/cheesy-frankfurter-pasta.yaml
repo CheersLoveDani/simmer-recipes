@@ -14,7 +14,7 @@ ingredients:
       - { qty: 1, unit: tbsp, item: vegetable oil }
       - { qty: 2, unit: null, item: cooked Cajun chicken breasts, key: chicken breast, prep: cut into bite-sized pieces, note: ready-cooked from the chilled aisle }
       - { qty: 1, unit: null, item: onion, prep: finely chopped }
-      - { qty: 4, unit: null, item: frankfurters, prep: sliced into coins }
+      - { qty: 6, unit: null, item: frankfurters, prep: sliced into coins }
       - { qty: 500, unit: g, item: pasta sauce, note: about 1 large jar }
       - { qty: 4, unit: null, item: gherkins, prep: chopped }
       - { qty: 2, unit: null, item: spring onions, key: spring onion, prep: thinly sliced }
@@ -52,6 +52,7 @@ steps:
 equipment: [large saucepan, large frying pan, colander, 2 litre baking dish]
 tips:
   - The frankfurters and chicken are already cooked, so they only need heating through. Brown the frankfurters for flavour.
+  - "Frozen cooked chicken: defrost it overnight in the fridge and use it within 24 hours, or use the microwave defrost setting and cook it straight away. Either way, simmer it in the sauce until steaming hot all the way through."
   - Cooked Cajun chicken varies in heat. For children, check the pack or swap half for plain cooked chicken.
   - For an extra-crispy top, finish the bake under a hot grill for 2–3 minutes.
 substitutions:
@@ -60,12 +61,12 @@ substitutions:
   - { for: cheddar, use: mozzarella, note: stretchier and milder }
   - { for: pasta sauce, use: passata, note: "add a pinch of salt, sugar and dried herbs" }
 storage: Keeps for 2 days in the fridge or 2 months in the freezer. See meal prep below for portioning and reheating.
-nutrition: { kcal: 830, protein: 50, carbs: 82, fat: 33, fibre: 6 }
+nutrition: { kcal: 890, protein: 53, carbs: 82, fat: 38, fibre: 6 }
 mealPrep:
   rating: great
   fridgeDays: 2
   freezerMonths: 2
-  portion: Leave the bake to stand for 10 minutes so it firms up, then cut it into 4 and lift each portion into a lidded container or foil tray that can go in the microwave or oven, about 450 g each. Or keep the whole dish together for a family meal.
+  portion: Leave the bake to stand for 10 minutes so it firms up, then cut it into 4 and lift each portion into a lidded container or foil tray that can go in the microwave or oven, about 475 g each. Or keep the whole dish together for a family meal.
   freeze: Cool uncovered, then lid, label with the name and date and freeze within 2 hours of cooking. Lay portions flat so they chill quickly and stack neatly.
   defrost: Move a portion to the fridge the night before and eat it within 24 hours. Never defrost on the worktop.
   reheat:
